@@ -1,0 +1,365 @@
+<html>
+  <head>
+    <style>
+      /* FIZX-inspired stylesheet */
+      body {
+        background: #181c24;
+        color: #fff; /* Use white for main text */
+        font-family: "Segoe UI", Arial, sans-serif;
+        margin: 0;
+        padding: 0 0 0 220px;
+      }
+
+      header {
+        background: #7f5af0; /* Solid purple */
+        color: #fff;
+        padding: 48px 0 32px 0;
+        text-align: center;
+        font-size: 2.2em;
+        font-weight: bold;
+        position: relative;
+        margin-bottom: 32px;
+        letter-spacing: 1px;
+        border-bottom-left-radius: 32px;
+        border-bottom-right-radius: 32px;
+        box-shadow: 0 4px 24px rgba(127, 90, 240, 0.15);
+        overflow: hidden; /* Keep bubbles inside header */
+      }
+
+      .bubble {
+        position: absolute;
+        bottom: 0; /* Start at the bottom of the header */
+        background: rgba(44, 182, 125, 0.25);
+        border-radius: 50%;
+        animation: rise 10s infinite ease-in;
+      }
+
+      @keyframes rise {
+        0% {
+          transform: translateY(0) scale(1);
+          opacity: 1;
+        }
+        100% {
+          transform: translateY(-120px) scale(0.5); /* Rise only within header */
+          opacity: 0;
+        }
+      }
+
+      #sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 200px;
+        height: 100%;
+        background: #22262f;
+        color: #fff;
+        padding: 32px 20px;
+        box-shadow: 2px 0 16px rgba(44, 182, 125, 0.08);
+        border-top-right-radius: 32px;
+        border-bottom-right-radius: 32px;
+        z-index: 10;
+      }
+
+      #sidebar h2 {
+        font-size: 1.2em;
+        color: #ffd803; /* Yellow for sidebar heading */
+        margin-bottom: 18px;
+        letter-spacing: 1px;
+      }
+
+      #sidebar ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      #sidebar ul li {
+        margin-bottom: 16px;
+      }
+
+      #sidebar ul li a {
+        text-decoration: none;
+        color: #ffd803; /* Yellow for sidebar links */
+        font-weight: 600;
+        transition: color 0.2s;
+        border-radius: 8px;
+        padding: 4px 8px;
+      }
+
+      #sidebar ul li a:hover {
+        color: #7f5af0;
+        background: #232946;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        color: #ffd803; /* Yellow for headings */
+        margin-top: 0;
+      }
+
+      h1 {
+        font-size: 2.5em;
+        margin-bottom: 18px;
+      }
+
+      h2 {
+        font-size: 1.5em;
+        margin-bottom: 12px;
+      }
+
+      .section {
+        background: #232946;
+        border-radius: 18px;
+        box-shadow: 0 2px 12px rgba(127, 90, 240, 0.07);
+        padding: 28px 32px;
+        margin-bottom: 32px;
+        margin-right: 32px;
+        color: #fff; /* Ensure section text is white */
+      }
+
+      .competency {
+        margin-left: 18px;
+        margin-bottom: 10px;
+        padding-left: 10px;
+        border-left: 3px solid #ffd803; /* Yellow border */
+      }
+
+      strong {
+        color: #ffd803; /* Yellow for strong text */
+      }
+
+      @media (max-width: 900px) {
+        body {
+          padding: 0;
+        }
+        #sidebar {
+          position: static;
+          width: 100%;
+          border-radius: 0;
+          box-shadow: none;
+          margin-bottom: 24px;
+        }
+        .section {
+          margin-right: 0;
+          padding: 18px 8px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <span style="font-size: 0.8em; vertical-align: middle">Welcome to</span>
+      <img
+        src="logo.png"
+        alt="Hubexo Logo"
+        style="height: 56px; vertical-align: middle; margin: 0 12px"
+      />
+      <span style="font-size: 0.8em; vertical-align: middle">Careers</span>
+
+      <div
+        class="bubble"
+        style="width: 40px; height: 40px; left: 10%; animation-delay: 0s"
+      ></div>
+      <div
+        class="bubble"
+        style="width: 25px; height: 25px; left: 30%; animation-delay: 2s"
+      ></div>
+      <div
+        class="bubble"
+        style="width: 50px; height: 50px; left: 50%; animation-delay: 4s"
+      ></div>
+      <div
+        class="bubble"
+        style="width: 30px; height: 30px; left: 70%; animation-delay: 1s"
+      ></div>
+      <div
+        class="bubble"
+        style="width: 20px; height: 20px; left: 90%; animation-delay: 3s"
+      ></div>
+    </header>
+    <div id="sidebar">
+      <h2>Software Engineering</h2>
+      <ul>
+        <li>
+          <a href="enhanced_junior_software_engineer.html"
+            >Junior Software Engineer</a
+          >
+        </li>
+        <li>
+          <a href="enhanced_software_engineer.html">Software Engineer</a>
+        </li>
+        <li>
+          <a href="enhanced_software_engineer_ii.html">Software Engineer II</a>
+        </li>
+        <li>
+          <a href="enhanced_senior_software_engineer.html"
+            >Senior Software Engineer
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="section">
+      <div class="section">
+        <h1>Senior Software Engineer </h1>
+        <p></p>
+        <h2>Overview</h2>
+        <p>
+          As a Senior Software Engineer, you are expected to demonstrate deep
+          technical expertise and leadership across multiple projects. You
+          independently design scalable systems, mentor peers, and influence
+          engineering practices across teams. You are a key contributor to
+          architectural decisions and ensure the delivery of high-quality,
+          maintainable code. Your work has a broad impact, aligning technical
+          solutions with business goals and driving innovation within the
+          organization.
+        </p>
+
+        <p><strong>Experience:</strong> 6-9 years</p>
+        <p><strong>Scope Of Influence:</strong> Individual</p>
+        <p>
+          <strong>Responsibilities:</strong> Deep technical expertise,
+          leadership roles
+        </p>
+        <p>
+          <strong>Mentorship:</strong> Solves complex problems, designs scalable
+          solutions
+        </p>
+        <p>
+          <strong>Impact:</strong> Leads large projects and mentors others.
+          Shapes team direction and influences engineering practices across
+          multiple teams.
+        </p>
+
+        <div class="section">
+          <h2>Technical Competencies</h2>
+          <img
+            alt="Technical Competencies Chart"
+            src="Senior Software Engineer.png"
+            width="500"
+          />
+          <div class="competency">
+            <p>
+              <strong>Data Structures (L4):</strong> Designs and optimizes
+              complex data structures for specific use cases.
+            </p>
+          </div>
+          <div class="competency">
+            <p>
+              <strong>Algorithms (L3):</strong> Analyzes and optimizes
+              algorithms for performance.
+            </p>
+          </div>
+          <div class="competency">
+            <p>
+              <strong>System Design (L3):</strong> Independently designs
+              scalable systems, considering future growth.
+            </p>
+          </div>
+          <div class="competency">
+            <p>
+              <strong>Database Management (L3):</strong> Designs and manages
+              database schemas, ensures performance and integrity.
+            </p>
+          </div>
+          <div class="competency">
+            <p>
+              <strong>Programming Languages (L2):</strong> Proficient in
+              multiple languages, adapts to project needs.
+            </p>
+          </div>
+          <div class="competency">
+            <p>
+              <strong>Testing &amp; Quality Assurance (L2):</strong> Implements
+              integration tests, understands TDD/BDD principles.
+            </p>
+          </div>
+          <div class="competency">
+            <p>
+              <strong>DevOps &amp; Automation (L2):</strong> Automates routine
+              tasks, manages CI/CD pipelines.
+            </p>
+          </div>
+          <div class="competency">
+            <p>
+              <strong>Security &amp; Privacy (L2):</strong> Implements security
+              best practices in code, follows security guidelines.
+            </p>
+          </div>
+          <div class="competency">
+            <p>
+              <strong>Cloud Infrastructure (L2):</strong> Deploys applications
+              to the cloud, manages resources effectively.
+            </p>
+          </div>
+          <div class="competency">
+            <p>
+              <strong>Code Quality &amp; Maintainability (L3):</strong>
+              Implements and enforces best practices for code quality and
+              maintainability.
+            </p>
+          </div>
+        </div>
+        <div class="section">
+          <h2>Behavioral Competencies</h2>
+          <img
+            alt="Behavioral Competencies Chart"
+            src="Senior Software Engineer _b.png"
+            width="500"
+          />
+
+          <div class="competency">
+            <p>
+              <strong>Leadership (L2):</strong> Leads small projects, motivates
+              team members.
+            </p>
+          </div>
+          <div class="competency">
+            <p>
+              <strong>Communication (L3):</strong> Facilitates discussions,
+              resolves conflicts, ensures clear communication.
+            </p>
+          </div>
+          <div class="competency">
+            <p>
+              <strong>Teamwork (L4):</strong> Leads team initiatives, builds
+              strong team dynamics, ensures collective success.
+            </p>
+          </div>
+          <div class="competency">
+            <p>
+              <strong>Problem Solving (L4):</strong> Leads problem-solving
+              efforts for critical issues, ensures robust solutions.
+            </p>
+          </div>
+          <div class="competency">
+            <p>
+              <strong>Adaptability (L3):</strong> Handles significant changes
+              and challenges independently, maintains productivity.
+            </p>
+          </div>
+          <div class="competency">
+            <p>
+              <strong>Accountability (L3):</strong> Ensures team accountability,
+              addresses issues promptly.
+            </p>
+          </div>
+          <div class="competency">
+            <p>
+              <strong>Business Impact Awareness (L2):</strong> Considers
+              business impact in project decisions, aligns work with goals.
+            </p>
+          </div>
+          <div class="competency">
+            <p>
+              <strong>Continuous Improvement (L2):</strong> Actively improves
+              skills, seeks feedback, supports team development.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

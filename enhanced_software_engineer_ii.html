@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <style>
+      /* FIZX-inspired stylesheet */
+      body {
+        background: #181c24;
+        color: #fff; /* Use white for main text */
+        font-family: "Segoe UI", Arial, sans-serif;
+        margin: 0;
+        padding: 0 0 0 220px;
+      }
+
+      header {
+        background: #7f5af0; /* Solid purple */
+        color: #fff;
+        padding: 48px 0 32px 0;
+        text-align: center;
+        font-size: 2.2em;
+        font-weight: bold;
+        position: relative;
+        margin-bottom: 32px;
+        letter-spacing: 1px;
+        border-bottom-left-radius: 32px;
+        border-bottom-right-radius: 32px;
+        box-shadow: 0 4px 24px rgba(127, 90, 240, 0.15);
+        overflow: hidden; /* Keep bubbles inside header */
+      }
+
+      .bubble {
+        position: absolute;
+        bottom: 0; /* Start at the bottom of the header */
+        background: rgba(44, 182, 125, 0.25);
+        border-radius: 50%;
+        animation: rise 10s infinite ease-in;
+      }
+
+      @keyframes rise {
+        0% {
+          transform: translateY(0) scale(1);
+          opacity: 1;
+        }
+        100% {
+          transform: translateY(-120px) scale(0.5); /* Rise only within header */
+          opacity: 0;
+        }
+      }
+
+      #sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 200px;
+        height: 100%;
+        background: #22262f;
+        color: #fff;
+        padding: 32px 20px;
+        box-shadow: 2px 0 16px rgba(44, 182, 125, 0.08);
+        border-top-right-radius: 32px;
+        border-bottom-right-radius: 32px;
+        z-index: 10;
+      }
+
+      #sidebar h2 {
+        font-size: 1.2em;
+        color: #ffd803; /* Yellow for sidebar heading */
+        margin-bottom: 18px;
+        letter-spacing: 1px;
+      }
+
+      #sidebar ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      #sidebar ul li {
+        margin-bottom: 16px;
+      }
+
+      #sidebar ul li a {
+        text-decoration: none;
+        color: #ffd803; /* Yellow for sidebar links */
+        font-weight: 600;
+        transition: color 0.2s;
+        border-radius: 8px;
+        padding: 4px 8px;
+      }
+
+      #sidebar ul li a:hover {
+        color: #7f5af0;
+        background: #232946;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        color: #ffd803; /* Yellow for headings */
+        margin-top: 0;
+      }
+
+      h1 {
+        font-size: 2.5em;
+        margin-bottom: 18px;
+      }
+
+      h2 {
+        font-size: 1.5em;
+        margin-bottom: 12px;
+      }
+
+      .section {
+        background: #232946;
+        border-radius: 18px;
+        box-shadow: 0 2px 12px rgba(127, 90, 240, 0.07);
+        padding: 28px 32px;
+        margin-bottom: 32px;
+        margin-right: 32px;
+        color: #fff; /* Ensure section text is white */
+      }
+
+      .competency {
+        margin-left: 18px;
+        margin-bottom: 10px;
+        padding-left: 10px;
+        border-left: 3px solid #ffd803; /* Yellow border */
+      }
+
+      strong {
+        color: #ffd803; /* Yellow for strong text */
+      }
+
+      @media (max-width: 900px) {
+        body {
+          padding: 0;
+        }
+        #sidebar {
+          position: static;
+          width: 100%;
+          border-radius: 0;
+          box-shadow: none;
+          margin-bottom: 24px;
+        }
+        .section {
+          margin-right: 0;
+          padding: 18px 8px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <span style="font-size: 0.8em; vertical-align: middle">Welcome to</span>
+      <img
+        src="logo.png"
+        alt="Hubexo Logo"
+        style="height: 56px; vertical-align: middle; margin: 0 12px"
+      />
+      <span style="font-size: 0.8em; vertical-align: middle">Careers</span>
+
+      <div
+        class="bubble"
+        style="width: 40px; height: 40px; left: 10%; animation-delay: 0s"
+      ></div>
+      <div
+        class="bubble"
+        style="width: 25px; height: 25px; left: 30%; animation-delay: 2s"
+      ></div>
+      <div
+        class="bubble"
+        style="width: 50px; height: 50px; left: 50%; animation-delay: 4s"
+      ></div>
+      <div
+        class="bubble"
+        style="width: 30px; height: 30px; left: 70%; animation-delay: 1s"
+      ></div>
+      <div
+        class="bubble"
+        style="width: 20px; height: 20px; left: 90%; animation-delay: 3s"
+      ></div>
+    </header>
+    <div id="sidebar">
+      <h2>Software Engineering</h2>
+      <ul>
+        <li>
+          <a href="enhanced_junior_software_engineer.html"
+            >Junior Software Engineer</a
+          >
+        </li>
+        <li>
+          <a href="enhanced_software_engineer.html">Software Engineer</a>
+        </li>
+        <li>
+          <a href="enhanced_software_engineer_ii.html">Software Engineer II</a>
+        </li>
+        <li>
+          <a href="enhanced_senior_software_engineer.html"
+            >Senior Software Engineer
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="section">
+      <div class="section">
+        <h1>Software Engineer II</h1>
+        <h2>Overview</h2>
+        <p>
+          As a Software Engineer II, you are a key contributor to your team,
+          demonstrating a solid understanding of software engineering principles
+          and practices. You independently complete complex tasks and contribute
+          to the design and architecture of systems. You are expected to mentor
+          junior engineers, collaborate effectively across teams, and take
+          ownership of your work. Your impact extends beyond your immediate
+          team, influencing project outcomes and contributing to the broader
+          engineering goals.
+        </p>
+        <p><strong>Experience:</strong> 4-6 years</p>
+        <p><strong>Scope Of Influence:</strong> Individual</p>
+        <p>
+          <strong>Responsibilities:</strong> Advanced coding tasks, significant
+          project contributions
+        </p>
+        <p>
+          <strong>Mentorship:</strong> Mentors junior engineers, leads small
+          projects
+        </p>
+        <p>
+          <strong>Impact:</strong> Drives technical solutions for complex
+          problems. Impacts team-level architecture and contributes to
+          cross-team initiatives.
+        </p>
+      </div>
+      <div class="section">
+        <h2>Technical Competencies</h2>
+        <img
+          alt="Technical Competencies Chart"
+          src="Software Engineer 2.png"
+          width="500"
+        />
+        <div class="competency">
+          <p>
+            <strong>Data Structures (L3):</strong> Utilizes data structures
+            efficiently in solving problems.
+          </p>
+        </div>
+        <div class="competency">
+          <p>
+            <strong>Algorithms (L2):</strong> Can implement standard algorithms
+            with correct complexity.
+          </p>
+        </div>
+        <div class="competency">
+          <p>
+            <strong>System Design (L2):</strong> Designs small systems with some
+            guidance, considers trade-offs.
+          </p>
+        </div>
+        <div class="competency">
+          <p>
+            <strong>Database Management (L2):</strong> Can write efficient
+            queries, understands indexing.
+          </p>
+        </div>
+        <div class="competency">
+          <p>
+            <strong>Programming Languages (L2):</strong> Proficient in multiple
+            languages, adapts to project needs.
+          </p>
+        </div>
+        <div class="competency">
+          <p>
+            <strong>Testing &amp; Quality Assurance (L1):</strong> Writes basic
+            unit tests for their code.
+          </p>
+        </div>
+        <div class="competency">
+          <p>
+            <strong>DevOps &amp; Automation (L1):</strong> Understands basic
+            CI/CD concepts, can set up simple pipelines.
+          </p>
+        </div>
+        <div class="competency">
+          <p>
+            <strong>Security &amp; Privacy (L1):</strong> Understands basic
+            security concepts (e.g., authentication, encryption).
+          </p>
+        </div>
+        <div class="competency">
+          <p>
+            <strong>Cloud Infrastructure (L2):</strong> Deploys applications to
+            the cloud, manages resources effectively.
+          </p>
+        </div>
+        <div class="competency">
+          <p>
+            <strong>Code Quality &amp; Maintainability (L3):</strong> Implements
+            and enforces best practices for code quality and maintainability.
+          </p>
+        </div>
+      </div>
+      <div class="section">
+        <h2>Behavioral Competencies</h2>
+        <img
+          alt="Behavioral Competencies Chart"
+          src="Software Engineer 2 _ b.png"
+          width="500"
+        />
+
+        <div class="competency">
+          <p>
+            <strong>Leadership (L1):</strong> Demonstrates basic leadership
+            qualities in small tasks.
+          </p>
+        </div>
+        <div class="competency">
+          <p>
+            <strong>Communication (L2):</strong> Communicates effectively across
+            teams, shares ideas and feedback.
+          </p>
+        </div>
+        <div class="competency">
+          <p>
+            <strong>Teamwork (L3):</strong> Drives team success, fosters
+            collaboration and inclusivity.
+          </p>
+        </div>
+        <div class="competency">
+          <p>
+            <strong>Problem Solving (L3):</strong> Analyzes complex problems,
+            develops innovative solutions.
+          </p>
+        </div>
+        <div class="competency">
+          <p>
+            <strong>Adaptability (L2):</strong> Adjusts to changes in project
+            scope and requirements, remains flexible.
+          </p>
+        </div>
+        <div class="competency">
+          <p>
+            <strong>Accountability (L2):</strong> Holds self and peers
+            accountable for project deliverables.
+          </p>
+        </div>
+        <div class="competency">
+          <p>
+            <strong>Business Impact Awareness (L1):</strong> Understands basic
+            business goals and how their work contributes.
+          </p>
+        </div>
+        <div class="competency">
+          <p>
+            <strong>Continuous Improvement (L2):</strong> Actively improves
+            skills, seeks feedback, supports team development.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
