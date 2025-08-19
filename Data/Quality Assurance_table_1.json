@@ -1,0 +1,38 @@
+[
+    {
+        "Overview": "As a Junior QA Engineer, you are responsible for executing basic testing tasks and learning the QA processes. You work under the guidance of experienced colleagues and contribute to the team by ensuring basic test coverage. Your role is crucial in identifying bugs and supporting the team in maintaining product quality.",     
+        "Level": "Junior QA Engineer",
+        "Experience (Guidance)": "< 2 years",
+        "Scope Of Influence": "Individual",
+        "Responsibilities": "Basic testing tasks, learning QA processes",
+        "Mentorship": "Receives guidance from experienced colleagues",
+        "Impact": "Contributes to product quality by executing test cases and identifying bugs. Supports the team by learning QA processes and ensuring basic test coverage."
+    },
+    {
+        "Overview": "As a QA Engineer, you are responsible for executing test cases, identifying bugs, and contributing to the development of test plans. You work independently on well-defined tasks and may begin mentoring junior team members. Your contributions enhance product reliability and support the overall quality assurance efforts across the organization.",
+        "Level": "QA Engineer",
+        "Experience (Guidance)": "2-4 years",
+        "Scope Of Influence": "Individual",
+        "Responsibilities": "Executes test cases, identifies bugs, contributes to test plans",
+        "Mentorship": "May start mentoring junior team members",
+        "Impact": "Improves product reliability by designing and executing test plans. Begins to influence quality standards and contributes to team efficiency."
+    },
+    {
+        "Overview": "As a Senior QA Engineer, you take on complex testing tasks and lead initiatives that enhance test coverage and quality assurance processes. You mentor junior engineers, lead small projects, and drive improvements in testing strategies. Your role involves significant technical expertise and leadership in shaping quality assurance practices that align with business goals.",
+        "Level": "Senior QA Engineer",
+        "Experience (Guidance)": "4-8 years",
+        "Scope Of Influence": "Individual",
+        "Responsibilities": "Advanced testing tasks, significant contributions to test strategies, leadership roles",
+        "Mentorship": "Mentors junior QA engineers, leads small testing projects",
+        "Impact": "Drives quality strategy and ensures robust test coverage. Leads initiatives that reduce defects and improve release confidence."
+    },
+    {
+        "Overview": "As a Lead QA Engineer, you own and drive QA projects across teams and influence company-wide quality strategies. You manage QA teams, provide strategic input on quality processes, and align QA efforts with business goals. Your leadership ensures that quality practices are scalable, efficient, and embedded across the development lifecycle. You are a key decision-maker in the QA domain and lead cross-functional efforts to elevate product quality.",
+        "Level": "Lead QA Engineer",
+        "Experience (Guidance)": "8+ years",
+        "Scope Of Influence": "Individual",
+        "Responsibilities": "Full ownership of QA projects, team management, company-wide QA strategies",
+        "Mentorship": "Manages larger QA teams, provides strategic input on quality processes, influences QA direction",
+        "Impact": "Shapes QA vision and strategy across teams. Influences company-wide quality practices and ensures alignment with business goals."
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "Overview": "As an Engineering Manager, you lead a team of engineers and oversee project execution to ensure alignment with business goals. You foster a culture of accountability, growth, and technical excellence. Your role involves mentoring software engineers and junior managers, driving team-level execution, and delivering high-quality outcomes. You are a key link between engineering and business strategy, ensuring your team’s work contributes meaningfully to organizational success.",
+        "Level": "Engineering Manager",
+        "Experience (Guidance)": "7-10 years",
+        "Scope Of Influence": "Team ",
+        "Responsibilities": "Manages a team of engineers, oversees project execution, ensures alignment with business goals",
+        "Mentorship": "Mentors software engineers and junior managers",
+        "Impact": "Drives team-level execution and delivery. Ensures alignment with business goals and fosters a culture of accountability and growth."
+    },
+    {
+        "Overview": "As a Senior Engineering Manager, you manage multiple engineering teams and lead strategic initiatives that drive technical excellence and innovation. You are responsible for ensuring high-quality delivery across teams, mentoring engineering managers, and influencing cross-functional collaboration. Your leadership is crucial in scaling engineering practices and aligning them with the broader organizational strategy.",   
+        "Level": "Senior Engineering Manager",
+        "Experience (Guidance)": "10-13 years",
+        "Scope Of Influence": "Team ",
+        "Responsibilities": "Manages multiple engineering teams, leads strategic initiatives, ensures high-quality delivery",
+        "Mentorship": "Mentors engineering managers, provides strategic guidance",
+        "Impact": "Leads multiple teams and strategic initiatives. Influences cross-functional collaboration and drives high-quality delivery at scale."
+    },
+    {
+        "Overview": "As a Director of Engineering, you oversee the engineering department and set the technical direction for the organization. You are responsible for aligning engineering goals with company vision, managing senior engineering managers, and driving innovation across teams. Your leadership ensures that engineering practices are scalable, efficient, and aligned with business objectives.",  
+        "Level": "Director of Engineering",
+        "Experience (Guidance)": "13-16 years",
+        "Scope Of Influence": "Tribe",
+        "Responsibilities": "Oversees engineering department, sets technical direction, aligns engineering goals with company vision",
+        "Mentorship": "Mentors senior engineering managers, shapes departmental strategy",
+        "Impact": "Shapes departmental strategy and technical direction. Aligns engineering goals with company vision and drives innovation across tribes."
+    },
+    {
+        "Overview": "As a VP of Engineering, you are responsible for the overall engineering strategy and execution across the organization. You lead multiple departments, influence company-wide technical decisions, and ensure that engineering practices align with business objectives. Your role involves strategic planning, resource allocation, and fostering a culture of innovation and excellence within the engineering teams.",
+        "Level": "VP of Engineering",
+        "Experience (Guidance)": "16+ years",
+        "Scope Of Influence": "Global",
+        "Responsibilities": "Executive leadership, drives company-wide technical strategy, ensures alignment with overall business objectives",
+        "Mentorship": "Mentors directors of engineering, influences company-wide decisions",
+        "Impact": "Defines and drives company-wide technical strategy. Influences executive decisions and ensures engineering excellence globally."
+    }
+]

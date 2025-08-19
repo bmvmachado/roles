@@ -1,0 +1,82 @@
+[
+    {
+        "Competency": "Data Pipelines",
+        "Level 1: Novice": "Understands basic data pipeline concepts",
+        "Level 2: Proficient": "Implements simple data pipelines, manages data flow",
+        "Level 3: Competent": "Designs and maintains complex data pipelines, ensures data quality",
+        "Level 4: Advanced": "Leads data pipeline projects, optimizes for performance and scalability",
+        "Level 5: Expert": "Innovates in data pipeline strategies, mentors others, influences industry practices"
+    },
+    {
+        "Competency": "ETL Processes",
+        "Level 1: Novice": "Familiar with basic ETL tools and processes",
+        "Level 2: Proficient": "Implements ETL workflows, ensures data transformation",
+        "Level 3: Competent": "Develops comprehensive ETL strategies, optimizes data extraction and loading",
+        "Level 4: Advanced": "Leads ETL initiatives, introduces advanced ETL techniques",
+        "Level 5: Expert": "Establishes ETL standards, mentors others, contributes to ETL research"
+    },
+    {
+        "Competency": "Data Warehousing",
+        "Level 1: Novice": "Understands basic data warehousing concepts",
+        "Level 2: Proficient": "Manages data storage, writes efficient queries",
+        "Level 3: Competent": "Designs and optimizes data warehouse schemas, ensures performance",
+        "Level 4: Advanced": "Leads data warehousing projects, ensures scalability and reliability",
+        "Level 5: Expert": "Innovates in data warehousing practices, mentors team, influences industry standards"
+    },
+    {
+        "Competency": "Big Data Technologies",
+        "Level 1: Novice": "Familiar with basic big data tools (e.g., Hadoop, Spark)",
+        "Level 2: Proficient": "Implements big data solutions, manages large datasets",
+        "Level 3: Competent": "Develops and optimizes big data architectures, ensures efficiency",
+        "Level 4: Advanced": "Leads big data projects, introduces advanced big data techniques",
+        "Level 5: Expert": "Innovates in big data strategies, mentors others, contributes to big data research"
+    },
+    {
+        "Competency": "Data Integration",
+        "Level 1: Novice": "Understands basic data integration concepts",
+        "Level 2: Proficient": "Implements data integration solutions, ensures data consistency",
+        "Level 3: Competent": "Develops comprehensive data integration strategies, optimizes data flow",
+        "Level 4: Advanced": "Leads data integration projects, ensures seamless data integration",
+        "Level 5: Expert": "Establishes data integration standards, mentors others, influences industry practices"
+    },
+    {
+        "Competency": "Data Quality & Governance",
+        "Level 1: Novice": "Understands basic data quality principles",
+        "Level 2: Proficient": "Implements data quality checks, ensures data accuracy",
+        "Level 3: Competent": "Develops data quality frameworks, ensures compliance with governance policies",
+        "Level 4: Advanced": "Leads data quality initiatives, optimizes data governance processes",
+        "Level 5: Expert": "Innovates in data quality and governance practices, mentors others, influences industry standards"
+    },
+    {
+        "Competency": "Cloud Data Services",
+        "Level 1: Novice": "Understands basic cloud data services (e.g., AWS, Azure)",
+        "Level 2: Proficient": "Deploys data solutions to the cloud, manages cloud resources",
+        "Level 3: Competent": "Designs and optimizes cloud data architectures, ensures cost efficiency",
+        "Level 4: Advanced": "Leads cloud data projects, ensures resilience and scalability",
+        "Level 5: Expert": "Innovates in cloud data strategies, mentors others, influences industry practices"
+    },
+    {
+        "Competency": "Programming & Scripting",
+        "Level 1: Novice": "Writes basic scripts for data tasks",
+        "Level 2: Proficient": "Automates data processes, manages data scripts",
+        "Level 3: Competent": "Develops and maintains data automation frameworks, ensures efficiency",
+        "Level 4: Advanced": "Leads data automation projects, implements advanced scripting techniques",
+        "Level 5: Expert": "Innovates in data automation strategies, mentors team, contributes to data scripting research"
+    },
+    {
+        "Competency": "Collaboration & Communication",
+        "Level 1: Novice": "Communicates effectively with team members, collaborates on data tasks",
+        "Level 2: Proficient": "Coordinates with cross-functional teams, provides clear communication",
+        "Level 3: Competent": "Develops collaboration strategies, ensures effective communication",
+        "Level 4: Advanced": "Leads collaboration efforts, fosters a collaborative environment",
+        "Level 5: Expert": "Establishes communication standards, mentors others, influences organizational culture"
+    },
+    {
+        "Competency": "Continuous Improvement",
+        "Level 1: Novice": "Participates in data process improvement activities",
+        "Level 2: Proficient": "Implements data process improvements, tracks results",
+        "Level 3: Competent": "Develops continuous improvement strategies, ensures process optimization",
+        "Level 4: Advanced": "Leads continuous improvement efforts, drives organizational change",
+        "Level 5: Expert": "Influences continuous improvement culture, mentors ot"
+    }
+]

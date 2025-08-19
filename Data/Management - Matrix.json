@@ -1,0 +1,64 @@
+{
+    "SubAreaSkills": {
+        "Conflict Management": {
+            "Engineering Manager": "L2",
+            "Senior Engineering Manager": "L3",
+            "Director of Engineering": "L4",
+            "VP of Engineering": "L5"
+        },
+        "Mentoring & Coaching": {
+            "Engineering Manager": "L2",
+            "Senior Engineering Manager": "L3",
+            "Director of Engineering": "L4",
+            "VP of Engineering": "L5"
+        },
+        "Communication": {
+            "Engineering Manager": "L2",
+            "Senior Engineering Manager": "L3",
+            "Director of Engineering": "L4",
+            "VP of Engineering": "L5"
+        },
+        "Project Management": {
+            "Engineering Manager": "L2",
+            "Senior Engineering Manager": "L3",
+            "Director of Engineering": "L4",
+            "VP of Engineering": "L5"
+        },
+        "Decision Making": {
+            "Engineering Manager": "L2",
+            "Senior Engineering Manager": "L3",
+            "Director of Engineering": "L4",
+            "VP of Engineering": "L5"
+        },
+        "Vision & Strategy": {
+            "Engineering Manager": "L2",
+            "Senior Engineering Manager": "L3",
+            "Director of Engineering": "L4",
+            "VP of Engineering": "L5"
+        },
+        "Team Building & Motivation": {
+            "Engineering Manager": "L2",
+            "Senior Engineering Manager": "L3",
+            "Director of Engineering": "L4",
+            "VP of Engineering": "L5"
+        },
+        "Innovation Leadership": {
+            "Engineering Manager": "L2",
+            "Senior Engineering Manager": "L3",
+            "Director of Engineering": "L4",
+            "VP of Engineering": "L5"
+        },
+        "Budget Management": {
+            "Engineering Manager": "L2",
+            "Senior Engineering Manager": "L3",
+            "Director of Engineering": "L4",
+            "VP of Engineering": "L5"
+        },
+        "Driving Disruptiveness": {
+            "Engineering Manager": "L2",
+            "Senior Engineering Manager": "L3",
+            "Director of Engineering": "L4",
+            "VP of Engineering": "L5"
+        }
+    }
+}

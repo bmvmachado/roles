@@ -1,0 +1,74 @@
+[
+    {
+        "Competency": "User Research",
+        "Level 1: Novice": "Understands basic user research methods",
+        "Level 2: Proficient": "Conducts user interviews and surveys, analyzes data",
+        "Level 3: Competent": "Develops comprehensive user research plans, synthesizes insights",
+        "Level 4: Advanced": "Leads user research initiatives, optimizes research methodologies",
+        "Level 5: Expert": "Innovates in user research practices, mentors others, influences industry standards"
+    },
+    {
+        "Competency": "Wireframing & Prototyping",
+        "Level 1: Novice": "Creates basic wireframes and prototypes",
+        "Level 2: Proficient": "Develops interactive prototypes, iterates based on feedback",
+        "Level 3: Competent": "Designs detailed wireframes and high-fidelity prototypes",
+        "Level 4: Advanced": "Leads prototyping efforts, introduces advanced prototyping tools and techniques",
+        "Level 5: Expert": "Establishes prototyping standards, mentors others, contributes to design research"
+    },
+    {
+        "Competency": "Visual Design",
+        "Level 1: Novice": "Understands basic visual design principles",
+        "Level 2: Proficient": "Creates visually appealing designs, follows design guidelines",
+        "Level 3: Competent": "Develops comprehensive visual design systems, ensures consistency",
+        "Level 4: Advanced": "Leads visual design projects, optimizes design for user experience",
+        "Level 5: Expert": "Innovates in visual design, mentors team, influences industry practices"
+    },
+    {
+        "Competency": "Interaction Design",
+        "Level 1: Novice": "Understands basic interaction design concepts",
+        "Level 2: Proficient": "Designs intuitive interactions, ensures usability",
+        "Level 3: Competent": "Develops complex interaction designs, optimizes user flows",
+        "Level 4: Advanced": "Leads interaction design initiatives, introduces advanced interaction techniques",
+        "Level 5: Expert": "Establishes interaction design standards, mentors others, contributes to interaction design research"
+    },
+    {
+        "Competency": "Usability Testing",
+        "Level 1: Novice": "Conducts basic usability tests, identifies usability issues",
+        "Level 2: Proficient": "Develops and executes usability testing plans, analyzes results",
+        "Level 3: Competent": "Designs comprehensive usability testing strategies, ensures high usability",
+        "Level 4: Advanced": "Leads usability testing efforts, optimizes testing methodologies",
+        "Level 5: Expert": "Innovates in usability testing practices, mentors others, influences industry standards"
+    },
+    {
+        "Competency": "Information Architecture",
+        "Level 1: Novice": "Understands basic information architecture principles",
+        "Level 2: Proficient": "Develops site maps and navigation structures, ensures clarity",
+        "Level 3: Competent": "Designs complex information architectures, optimizes for user experience",
+        "Level 4: Advanced": "Leads information architecture projects, introduces advanced IA techniques",
+        "Level 5: Expert": "Establishes IA standards, mentors others, contributes to IA research"
+    },
+    {
+        "Competency": "Accessibility",
+        "Level 1: Novice": "Understands basic accessibility principles",
+        "Level 2: Proficient": "Implements accessibility best practices, ensures compliance",
+        "Level 3: Competent": "Develops comprehensive accessibility strategies, ensures inclusivity",
+        "Level 4: Advanced": "Leads accessibility initiatives, optimizes for diverse user needs",
+        "Level 5: Expert": "Innovates in accessibility practices, mentors others, influences industry standards"
+    },
+    {
+        "Competency": "Collaboration & Communication",
+        "Level 1: Novice": "Communicates design ideas effectively, collaborates with team members",
+        "Level 2: Proficient": "Coordinates with cross-functional teams, provides clear communication",
+        "Level 3: Competent": "Develops collaboration strategies, ensures effective communication",
+        "Level 4: Advanced": "Leads collaboration efforts, fosters a collaborative environment",
+        "Level 5: Expert": "Establishes communication standards, mentors others, influences organizational culture"
+    },
+    {
+        "Competency": "Continuous Improvement",
+        "Level 1: Novice": "Participates in design process improvement activities",
+        "Level 2: Proficient": "Implements design process improvements, tracks results",
+        "Level 3: Competent": "Develops continuous improvement strategies, ensures process optimization",
+        "Level 4: Advanced": "Leads continuous improvement efforts, drives organizational change",
+        "Level 5: Expert": "Influences continuous improvement culture, mentors others"
+    }
+]

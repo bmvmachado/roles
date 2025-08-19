@@ -1,0 +1,82 @@
+{
+    "SubAreaSkills": {
+        "Visual Design": {
+            "UX Designer": "L1",
+            "Senior UX Designer": "L2",
+            "Lead UX Designer": "L3"
+        },
+        "Interaction Design": {
+            "Junior UX Designer": "L1",
+            "UX Designer": "See Previous",
+            "Senior UX Designer": "L2",
+            "Lead UX Designer": "L3"
+        },
+        "Usability Testing": {
+            "Junior UX Designer": "L1",
+            "UX Designer": "See Previous",
+            "Senior UX Designer": "L2",
+            "Lead UX Designer": "See Previous"
+        },
+        "Information Architecture": {
+            "Senior UX Designer": "L1",
+            "Lead UX Designer": "L2"
+        },
+        "Accessibility": {
+            "Senior UX Designer": "L1",
+            "Lead UX Designer": "L2"
+        },
+        "Collaboration & Communication": {
+            "Senior UX Designer": "L1",
+            "Lead UX Designer": "L2"
+        },
+        "Continuous Improvement": {
+            "UX Designer": "L1",
+            "Senior UX Designer": "See Previous",
+            "Lead UX Designer": "L2"
+        },
+        "Conflict Management": {
+            "Senior UX Designer": "L1",
+            "Lead UX Designer": "L2"
+        },
+        "Mentoring & Coaching": {
+            "Senior UX Designer": "L1",
+            "Lead UX Designer": "L2"
+        },
+        "Communication": {
+            "Junior UX Designer": "L1",
+            "UX Designer": "See Previous",
+            "Lead UX Designer": "L2"
+        },
+        "Project Management": {
+            "Senior UX Designer": "L1",
+            "Lead UX Designer": "L2"
+        },
+        "Decision Making": {
+            "UX Designer": "L1",
+            "Senior UX Designer": "See Previous",
+            "Lead UX Designer": "L2"
+        },
+        "Vision & Strategy": {
+            "UX Designer": "L1",
+            "Senior UX Designer": "See Previous",
+            "Lead UX Designer": "L2"
+        },
+        "Team Building & Motivation": {
+            "Junior UX Designer": "L1",
+            "UX Designer": "See Previous",
+            "Senior UX Designer": "L2",
+            "Lead UX Designer": "See Previous"
+        },
+        "Innovation Leadership": {
+            "UX Designer": "L1",
+            "Senior UX Designer": "See Previous",
+            "Lead UX Designer": "L2"
+        },
+        "Budget Management": {},
+        "Driving Disruptiveness": {
+            "UX Designer": "L1",
+            "Senior UX Designer": "See Previous",
+            "Lead UX Designer": "L2"
+        }
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "SubAreaSkills": {
+        "Monitoring & Logging": {
+            "DevOps Engineer": "L1",
+            "DevOps Engineer II": "L2",
+            "Senior DevOps Engineer": "L3",
+            "Director of DevOps": "L4"
+        },
+        "Cloud Services": {
+            "Junior DevOps Engineer": "L1",
+            "DevOps Engineer": "See Previous",
+            "DevOps Engineer II": "L2",
+            "Senior DevOps Engineer": "L3",
+            "Director of DevOps": "L4"
+        },
+        "Automation & Scripting": {
+            "Junior DevOps Engineer": "L1",
+            "DevOps Engineer": "See Previous",
+            "DevOps Engineer II": "L2",
+            "Senior DevOps Engineer": "See Previous",
+            "Director of DevOps": "See Previous"
+        },
+        "Security & Compliance": {
+            "DevOps Engineer II": "L1",
+            "Senior DevOps Engineer": "L2",
+            "Director of DevOps": "L2"
+        },
+        "Collaboration & Communication": {
+            "DevOps Engineer II": "L1",
+            "Senior DevOps Engineer": "L2",
+            "Director of DevOps": "L2"
+        },
+        "Continuous Improvement": {
+            "DevOps Engineer II": "L1",
+            "Senior DevOps Engineer": "L2",
+            "Director of DevOps": "L2"
+        },
+        "Conflict Management": {
+            "DevOps Engineer II": "L1",
+            "Senior DevOps Engineer": "L2",
+            "Director of DevOps": "L3"
+        },
+        "Mentoring & Coaching": {
+            "DevOps Engineer II": "L1",
+            "Senior DevOps Engineer": "L2",
+            "Director of DevOps": "L3"
+        },
+        "Communication": {
+            "Junior DevOps Engineer": "L1",
+            "DevOps Engineer": "See Previous",
+            "Senior DevOps Engineer": "L2",
+            "Director of DevOps": "L3"
+        },
+        "Project Management": {
+            "DevOps Engineer II": "L1",
+            "Senior DevOps Engineer": "L2",
+            "Director of DevOps": "L3"
+        },
+        "Decision Making": {
+            "DevOps Engineer": "L1",
+            "DevOps Engineer II": "See Previous",
+            "Senior DevOps Engineer": "L2",
+            "Director of DevOps": "L3"
+        },
+        "Vision & Strategy": {
+            "DevOps Engineer": "L1",
+            "DevOps Engineer II": "See Previous",
+            "Senior DevOps Engineer": "L2",
+            "Director of DevOps": "L3"
+        },
+        "Team Building & Motivation": {
+            "Junior DevOps Engineer": "L1",
+            "DevOps Engineer": "See Previous",
+            "DevOps Engineer II": "L2",
+            "Senior DevOps Engineer": "See Previous",
+            "Director of DevOps": "L3"
+        },
+        "Innovation Leadership": {
+            "DevOps Engineer": "L1",
+            "DevOps Engineer II": "See Previous",
+            "Senior DevOps Engineer": "L2",
+            "Director of DevOps": "L3"
+        },
+        "Budget Management": {},
+        "Driving Disruptiveness": {
+            "DevOps Engineer": "L1",
+            "DevOps Engineer II": "See Previous",
+            "Senior DevOps Engineer": "L2",
+            "Director of DevOps": "L3"
+        }
+    }
+}

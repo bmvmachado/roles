@@ -1,0 +1,74 @@
+[
+    {
+        "Competency": "Testing Fundamentals",
+        "Level 1: Novice": "Understands basic testing concepts and techniques",
+        "Level 2: Proficient": "Executes test cases, identifies bugs",
+        "Level 3: Competent": "Develops comprehensive test plans, ensures high test coverage",
+        "Level 4: Advanced": "Leads testing efforts, introduces advanced testing methodologies",
+        "Level 5: Expert": "Establishes testing standards organization-wide, mentors others"
+    },
+    {
+        "Competency": "Automation Testing",
+        "Level 1: Novice": "Familiar with basic automation tools",
+        "Level 2: Proficient": "Implements automated test scripts",
+        "Level 3: Competent": "Develops and maintains automation frameworks",
+        "Level 4: Advanced": "Leads automation projects, optimizes automation processes",
+        "Level 5: Expert": "Innovates in automation strategies, mentors team"
+    },
+    {
+        "Competency": "Performance Testing",
+        "Level 1: Novice": "Understands basic performance testing concepts",
+        "Level 2: Proficient": "Executes performance tests, analyzes results",
+        "Level 3: Competent": "Designs performance testing strategies, ensures system scalability",
+        "Level 4: Advanced": "Leads performance testing initiatives, optimizes system performance",
+        "Level 5: Expert": "Establishes performance testing standards, mentors others"
+    },
+    {
+        "Competency": "Security Testing",
+        "Level 1: Novice": "Understands basic security testing concepts",
+        "Level 2: Proficient": "Executes security tests, identifies vulnerabilities",
+        "Level 3: Competent": "Develops security testing strategies, ensures compliance",
+        "Level 4: Advanced": "Leads security testing efforts, mitigates security risks",
+        "Level 5: Expert": "Influences security testing practices, mentors others"
+    },
+    {
+        "Competency": "Test Management",
+        "Level 1: Novice": "Assists with test planning and execution",
+        "Level 2: Proficient": "Manages test cases and test data",
+        "Level 3: Competent": "Develops test strategies, coordinates testing activities",
+        "Level 4: Advanced": "Leads test management efforts, ensures efficient test execution",
+        "Level 5: Expert": "Establishes test management standards, mentors others"
+    },
+    {
+        "Competency": "Defect Management",
+        "Level 1: Novice": "Logs defects, tracks defect status",
+        "Level 2: Proficient": "Analyzes defect trends, prioritizes defects",
+        "Level 3: Competent": "Develops defect management processes, ensures timely resolution",
+        "Level 4: Advanced": "Leads defect management initiatives, optimizes defect tracking",
+        "Level 5: Expert": "Innovates in defect management practices, mentors team"
+    },
+    {
+        "Competency": "Quality Metrics",
+        "Level 1: Novice": "Understands basic quality metrics",
+        "Level 2: Proficient": "Tracks and reports quality metrics",
+        "Level 3: Competent": "Analyzes quality metrics, identifies improvement areas",
+        "Level 4: Advanced": "Leads initiatives to improve quality metrics, ensures high-quality deliverables",
+        "Level 5: Expert": "Establishes quality metrics standards, mentors others"
+    },
+    {
+        "Competency": "Continuous Improvement",
+        "Level 1: Novice": "Participates in process improvement activities",
+        "Level 2: Proficient": "Implements process improvements, tracks results",
+        "Level 3: Competent": "Develops continuous improvement strategies, ensures process optimization",
+        "Level 4: Advanced": "Leads continuous improvement efforts, drives organizational change",
+        "Level 5: Expert": "Influences continuous improvement culture, mentors others"
+    },
+    {
+        "Competency": "Collaboration & Communication",
+        "Level 1: Novice": "Communicates test results, collaborates with team members",
+        "Level 2: Proficient": "Coordinates with cross-functional teams, provides clear communication",
+        "Level 3: Competent": "Develops collaboration strategies, ensures effective communication",
+        "Level 4: Advanced": "Leads collaboration efforts, fosters a collaborative environment",
+        "Level 5: Expert": "Establishes communication standards, mentors others"
+    }
+]

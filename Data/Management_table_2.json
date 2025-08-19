@@ -1,0 +1,66 @@
+[
+    {
+        "Competency": "Leadership",
+        "Level 1: Novice": "Understands basic leadership principles",
+        "Level 2: Proficient": "Manages small teams, resolves conflicts",
+        "Level 3: Competent": "Leads multiple teams, develops leadership strategies",
+        "Level 4: Advanced": "Leads large-scale initiatives, fosters a collaborative environment",
+        "Level 5: Expert": "Innovates in leadership practices, mentors others, influences organizational culture"
+    },
+    {
+        "Competency": "Project Management",
+        "Level 1: Novice": "Understands basic project management principles",
+        "Level 2: Proficient": "Manages small projects, follows standard methodologies",
+        "Level 3: Competent": "Manages multiple projects, ensures timely delivery",
+        "Level 4: Advanced": "Leads large-scale projects, optimizes project management processes",
+        "Level 5: Expert": "Innovates in project management strategies, mentors others, influences industry practices"
+    },
+    {
+        "Competency": "Strategic Planning",
+        "Level 1: Novice": "Understands basic strategic planning concepts",
+        "Level 2: Proficient": "Develops project plans, aligns with business goals",
+        "Level 3: Competent": "Develops comprehensive strategic plans, ensures alignment with company vision",
+        "Level 4: Advanced": "Leads strategic planning initiatives, optimizes for long-term success",
+        "Level 5: Expert": "Innovates in strategic planning practices, mentors others, influences organizational direction"
+    },
+    {
+        "Competency": "Resource Management",
+        "Level 1: Novice": "Understands basic resource management principles",
+        "Level 2: Proficient": "Allocates resources effectively, manages project budgets",
+        "Level 3: Competent": "Develops resource management strategies, ensures optimal resource utilization",
+        "Level 4: Advanced": "Leads resource management initiatives, optimizes resource allocation processes",
+        "Level 5: Expert": "Innovates in resource management practices, mentors others, influences industry standards"
+    },
+    {
+        "Competency": "Risk Management",
+        "Level 1: Novice": "Identifies basic project risks, follows mitigation plans",
+        "Level 2: Proficient": "Manages project risks, develops mitigation strategies",
+        "Level 3: Competent": "Develops comprehensive risk management plans, ensures project stability",
+        "Level 4: Advanced": "Leads risk management initiatives, optimizes risk mitigation processes",
+        "Level 5: Expert": "Innovates in risk management practices, mentors others, influences industry standards"
+    },
+    {
+        "Competency": "Quality Assurance",
+        "Level 1: Novice": "Understands basic quality assurance principles",
+        "Level 2: Proficient": "Ensures project deliverables meet quality standards",
+        "Level 3: Competent": "Develops quality assurance strategies, ensures high-quality deliverables",
+        "Level 4: Advanced": "Leads quality assurance initiatives, optimizes QA processes",
+        "Level 5: Expert": "Establishes quality assurance standards, mentors others, influences industry practices"
+    },
+    {
+        "Competency": "Communication & Collaboration",
+        "Level 1: Novice": "Communicates effectively with team members, collaborates on tasks",
+        "Level 2: Proficient": "Coordinates with cross-functional teams, provides clear communication",
+        "Level 3: Competent": "Develops collaboration strategies, ensures effective communication",
+        "Level 4: Advanced": "Leads collaboration efforts, fosters a collaborative environment",
+        "Level 5: Expert": "Establishes communication standards, mentors others, influences organizational culture"
+    },
+    {
+        "Competency": "Continuous Improvement",
+        "Level 1: Novice": "Participates in process improvement activities",
+        "Level 2: Proficient": "Implements process improvements, tracks results",
+        "Level 3: Competent": "Develops continuous improvement strategies, ensures process optimization",
+        "Level 4: Advanced": "Leads continuous improvement efforts, drives organizational change",
+        "Level 5: Expert": "Influences continuous improvement culture, mentors oth"
+    }
+]

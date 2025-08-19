@@ -1,0 +1,88 @@
+{
+    "SubAreaSkills": {
+        "System Design": {
+            "Software Engineer\n(E2)": "L1",
+            "Software Engineer II": "L2",
+            "Senior Software Engineer ": "L3"
+        },
+        "Database Management": {
+            "Junior Software Engineer": "L1",
+            "Software Engineer\n(E2)": "See Previous",
+            "Software Engineer II": "L2",
+            "Senior Software Engineer ": "L3"
+        },
+        "Programming Languages": {
+            "Junior Software Engineer": "L1",
+            "Software Engineer\n(E2)": "See Previous",
+            "Software Engineer II": "L2",
+            "Senior Software Engineer ": "See Previous"
+        },
+        "Testing & Quality Assurance": {
+            "Software Engineer II": "L1",
+            "Senior Software Engineer ": "L2"
+        },
+        "DevOps & Automation": {
+            "Software Engineer II": "L1",
+            "Senior Software Engineer ": "L2"
+        },
+        "Security & Privacy": {
+            "Software Engineer II": "L1",
+            "Senior Software Engineer ": "L2"
+        },
+        "Cloud Infrastructure": {
+            "Software Engineer\n(E2)": "L1",
+            "Software Engineer II": "L2",
+            "Senior Software Engineer ": "See Previous"
+        },
+        "Code Quality & Maintainability": {
+            "Junior Software Engineer": "L1",
+            "Software Engineer\n(E2)": "L2",
+            "Software Engineer II": "L3",
+            "Senior Software Engineer ": "See Previous"
+        },
+        "Conflict Management": {
+            "Software Engineer II": "L1",
+            "Senior Software Engineer ": "L2"
+        },
+        "Mentoring & Coaching": {
+            "Software Engineer II": "L1",
+            "Senior Software Engineer ": "L2"
+        },
+        "Communication": {
+            "Junior Software Engineer": "L1",
+            "Software Engineer\n(E2)": "See Previous",
+            "Senior Software Engineer ": "L2"
+        },
+        "Project Management": {
+            "Software Engineer II": "L1",
+            "Senior Software Engineer ": "L2"
+        },
+        "Decision Making": {
+            "Software Engineer\n(E2)": "L1",
+            "Software Engineer II": "See Previous",
+            "Senior Software Engineer ": "L2"
+        },
+        "Vision & Strategy": {
+            "Software Engineer\n(E2)": "L1",
+            "Software Engineer II": "See Previous",
+            "Senior Software Engineer ": "L2"
+        },
+        "Team Building & Motivation": {
+            "Junior Software Engineer": "L1",
+            "Software Engineer\n(E2)": "See Previous",
+            "Software Engineer II": "L2",
+            "Senior Software Engineer ": "See Previous"
+        },
+        "Innovation Leadership": {
+            "Software Engineer\n(E2)": "L1",
+            "Software Engineer II": "See Previous",
+            "Senior Software Engineer ": "L2"
+        },
+        "Budget Management": {},
+        "Driving Disruptiveness": {
+            "Software Engineer\n(E2)": "L1",
+            "Software Engineer II": "See Previous",
+            "Senior Software Engineer ": "L2"
+        }
+    }
+}

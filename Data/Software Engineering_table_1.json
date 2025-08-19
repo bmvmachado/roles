@@ -1,0 +1,54 @@
+[
+    {
+        "Overview": "As a Junior Software Engineer, you are responsible for basic coding tasks and learning the fundamentals of software development. You work under the guidance of experienced colleagues and contribute to the team by completing well-defined tasks. Your role is crucial in building a foundation in software engineering principles and practices, ensuring that you can effectively contribute to projects in the future.",  
+        "Level": "Junior Software Engineer",
+        "Experience (Guidance)": "< 2 years",
+        "Scope Of Influence": "Individual",
+        "Responsibilities": "Basic coding tasks, learning",
+        "Mentorship": "Receives guidance from experienced colleagues",
+        "Impact": "Contributes to team success by completing well-defined tasks and learning from peers. Impact is primarily local to their immediate team."
+    },
+    {
+        "Overview": "As a Software Engineer, you are responsible for complex coding assignments and contributing to larger projects. You work independently on well-defined tasks and may begin mentoring junior team members. Your contributions enhance product functionality and support the overall development efforts across the organization.",  
+        "Level": "Software Engineer",
+        "Experience (Guidance)": "2-4 years",
+        "Scope Of Influence": "Individual",
+        "Responsibilities": "Complex coding assignments, larger projects",
+        "Mentorship": "May start mentoring junior team members",
+        "Impact": "Delivers reliable code and contributes to medium-sized projects. Begins to influence team practices and improve local systems."
+    },
+    {
+        "Overview": "As a Software Engineer II, you take on advanced coding tasks and make significant contributions to software projects. You lead small projects, mentor junior engineers, and solve complex technical challenges. Your work drives team-wide software practices and contributes to the scalability and efficiency of systems.",
+        "Level": "Software Engineer II",
+        "Experience (Guidance)": "4-6 years",
+        "Scope Of Influence": "Individual",
+        "Responsibilities": "Advanced coding tasks, significant project contributions",
+        "Mentorship": "Mentors junior engineers, leads small projects",
+        "Impact": "Drives technical solutions for complex problems. Impacts team-level architecture and contributes to cross-team initiatives."
+    },
+    {
+        "Overview": "As a Senior Software Engineer, you are responsible for leading complex software projects and providing technical guidance to the team. You leverage your deep expertise to solve challenging problems and design scalable solutions. Your role involves mentoring junior engineers and influencing the overall technical direction of the team.",
+        "Level": "Senior Software Engineer",
+        "Experience (Guidance)": "6-9 years",
+        "Scope Of Influence": "Individual",
+        "Responsibilities": "Deep technical expertise, leadership roles",
+        "Mentorship": "Solves complex problems, designs scalable solutions",
+        "Impact": "Leads large projects and mentors others. Shapes team direction and influences engineering practices across multiple teams."
+    },
+    {
+        "Level": "Lead Software Engineer",
+        "Experience (Guidance)": "9-12 years",
+        "Scope Of Influence": "Individual",
+        "Responsibilities": "Full project ownership, team management",
+        "Mentorship": "Manages larger teams, provides strategic input",
+        "Impact": "Owns end-to-end delivery of major initiatives. Impacts organizational architecture and drives cross-functional alignment."
+    },
+    {
+        "Level": "Principal Software Engineer",
+        "Experience (Guidance)": "12+ years",
+        "Scope Of Influence": "Individual",
+        "Responsibilities": "Company-wide technical strategies, innovation",
+        "Mentorship": "Influences technical direction, collaborates cross-functionally",
+        "Impact": "Defines technical vision and strategy. Influences company-wide engineering direction and drives innovation at scale."
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "Overview": "As a Junior UX Designer, you are responsible for basic design tasks and learning the fundamentals of user experience design. You work under the guidance of experienced colleagues and contribute to the team by supporting design processes. Your role is crucial in building a foundation in UX principles and processes, ensuring that you can effectively contribute to user-centered design in the future.",      
+        "Level": "Junior UX Designer",
+        "Experience (Guidance)": "< 2 years",
+        "Scope Of Influence": "Individual",
+        "Responsibilities": "Basic design tasks, learning UX principles and processes",
+        "Mentorship": "Receives guidance from experienced colleagues",
+        "Impact": "Supports design tasks and learns UX principles. Contributes to team efficiency and user-centered design."
+    },
+    {
+        "Overview": "As a UX Designer, you are responsible for creating wireframes, prototypes, and user flows that enhance user experience. You work independently on well-defined tasks and may begin mentoring junior team members. Your contributions improve product usability and support the overall design efforts across the organization. You demonstrate growing expertise in UX design and begin to influence broader design decisions.",   
+        "Level": "UX Designer",
+        "Experience (Guidance)": "2-4 years",
+        "Scope Of Influence": "Individual",
+        "Responsibilities": "Creates wireframes, prototypes, and user flows, contributes to design strategies",
+        "Mentorship": "May start mentoring junior team members",
+        "Impact": "Delivers user-friendly designs and contributes to product usability. Enhances user satisfaction through thoughtful design."
+    },
+    {
+        "Overview": "As a Senior UX Designer, you take on complex design challenges and lead initiatives that enhance user experience and design processes. You mentor junior designers, lead small projects, and drive improvements in design strategies. Your role involves significant technical expertise and leadership in shaping user experience practices that align with business goals.",
+        "Level": "Senior UX Designer",
+        "Experience (Guidance)": "4-8 years",
+        "Scope Of Influence": "Individual",
+        "Responsibilities": "Advanced design tasks, significant contributions to design strategies, leadership roles",
+        "Mentorship": "Mentors junior UX designers, leads small design projects",
+        "Impact": "Leads design initiatives and mentors peers. Drives improvements in user experience and design consistency."
+    },
+    {
+        "Overview": "As a Lead UX Designer, you are responsible for overseeing design projects and managing a team of UX designers. You define the technical vision for design initiatives and ensure alignment with business goals. Your role involves strategic planning, architecture design, and fostering a culture of collaboration and innovation within the team.",
+        "Level": "Lead UX Designer",
+        "Experience (Guidance)": "8+ years",
+        "Scope Of Influence": "Team",
+        "Responsibilities": "Full ownership of design projects, team management, company-wide design strategies",
+        "Mentorship": "Manages larger design teams, provides strategic input on design ",
+        "Impact": "Shapes design strategy across teams. Aligns design goals with business outcomes and leads cross-functional initiatives."
+    }
+]

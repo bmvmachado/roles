@@ -1,0 +1,38 @@
+[
+    {
+        "Overview":"As a Junior Data Engineer, you are at the beginning of your data engineering career. You focus on learning foundational data processes and performing basic engineering tasks under the guidance of experienced colleagues. You demonstrate curiosity, a willingness to learn, and the ability to collaborate effectively with your team. Your work is scoped to individual tasks, and your impact is primarily local to your immediate team. You are developing technical skills and behavioral competencies that will support your growth into more advanced roles.",
+        "Level": "Junior Data Engineer",
+        "Experience (Guidance)": "< 2 years",
+        "Scope Of Influence": "Individual",
+        "Responsibilities": "Basic data engineering tasks, learning data processes",
+        "Mentorship": "Receives guidance from experienced colleagues",
+        "Impact": "Supports data engineering tasks and learns data infrastructure. Contributes to team efficiency and data reliability."
+    },
+    {
+        "Overview":"As a Data Engineer, you are responsible for building and maintaining data pipelines that ensure data quality and integrity. You work independently on well-defined tasks and may begin mentoring junior team members. Your contributions improve data accessibility and support analytics efforts across the organization. You demonstrate growing expertise in data engineering and begin to influence broader technical decisions.",
+        "Level": "Data Engineer",
+        "Experience (Guidance)": "2-4 years",
+        "Scope Of Influence": "Individual",
+        "Responsibilities": "Builds and maintains data pipelines, ensures data quality and integrity",
+        "Mentorship": "May start mentoring junior team members",
+        "Impact": "Delivers reliable data pipelines and ensures data quality. Improves data accessibility and supports analytics efforts."
+    },
+    {
+        "Overview":"As a Senior Data Engineer, you take on complex data engineering challenges and lead initiatives that enhance data architecture and processes. You mentor junior engineers and lead small projects, driving improvements in data systems. Your role involves significant technical expertise and leadership in shaping data strategies that align with business goals.", 
+        "Level": "Senior Data Engineer",
+        "Experience (Guidance)": "4-8 years",
+        "Scope Of Influence": "Individual",
+        "Responsibilities": "Advanced data engineering tasks, significant contributions to data strategies, leadership roles",
+        "Mentorship": "Mentors junior data engineers, leads small data projects",
+        "Impact": "Leads data engineering initiatives. Solves complex data challenges and mentors peers. Drives improvements in data architecture."
+    },
+    {
+        "Overview":"As a Lead Data Engineer, you are responsible for overseeing data engineering projects and managing a team of data engineers. You define the technical vision for data initiatives and ensure alignment with business goals. Your role involves strategic planning, architecture design, and fostering a culture of collaboration and innovation within the team.",
+        "Level": "Lead Data Engineer",
+        "Experience (Guidance)": "8+ years",
+        "Scope Of Influence": "Team",
+        "Responsibilities": "Full ownership of data projects, team management, company-wide data strategies",
+        "Mentorship": "Manages larger data teams, provides strategic input on data processes, influences data direction",
+        "Impact": "Shapes data strategy across teams. Aligns data infrastructure with business goals and leads cross-functional data initiatives."
+    }
+]

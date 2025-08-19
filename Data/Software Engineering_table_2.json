@@ -1,0 +1,82 @@
+[
+    {
+        "Competency": "Data Structures",
+        "Level 1: Novice": "Understands basic data structures (arrays, linked lists).",
+        "Level 2: Proficient": "Implements common data structures (stacks, queues).",
+        "Level 3: Competent": "Utilizes data structures efficiently in solving problems.",
+        "Level 4: Advanced": "Designs and optimizes complex data structures for specific use cases.",
+        "Level 5: Expert": "Innovates and creates new data structures, mentors others in their application."
+    },
+    {
+        "Competency": "Algorithms",
+        "Level 1: Novice": "Knows basic algorithms (sorting, searching).",
+        "Level 2: Proficient": "Can implement standard algorithms with correct complexity.",
+        "Level 3: Competent": "Analyzes and optimizes algorithms for performance.",
+        "Level 4: Advanced": "Develops and adapts algorithms for complex systems.",
+        "Level 5: Expert": "Creates new algorithms to address unique challenges, contributes to algorithmic research."
+    },
+    {
+        "Competency": "System Design",
+        "Level 1: Novice": "Understands basic system components and their interactions.",
+        "Level 2: Proficient": "Designs small systems with some guidance, considers trade-offs.",
+        "Level 3: Competent": "Independently designs scalable systems, considering future growth.",
+        "Level 4: Advanced": "Leads design of complex, distributed systems, addressing scalability and reliability.",
+        "Level 5: Expert": "Defines architecture for large-scale systems, influencing company-wide design principles."
+    },
+    {
+        "Competency": "Database Management",
+        "Level 1: Novice": "Basic understanding of SQL/NoSQL databases.",
+        "Level 2: Proficient": "Can write efficient queries, understands indexing.",
+        "Level 3: Competent": "Designs and manages database schemas, ensures performance and integrity.",
+        "Level 4: Advanced": "Architects scalable, distributed databases, and optimizes performance for large datasets.",
+        "Level 5: Expert": "Innovates in database design, mentors others, and contributes to database-related research."
+    },
+    {
+        "Competency": "Programming Languages",
+        "Level 1: Novice": "Familiar with one programming language, follows best practices.",
+        "Level 2: Proficient": "Proficient in multiple languages, adapts to project needs.",
+        "Level 3: Competent": "Expert in at least one language, contributes to internal libraries/tools.",
+        "Level 4: Advanced": "Innovates in language use, contributes to open-source projects, mentors others.",
+        "Level 5: Expert": "Recognized authority in multiple languages, influences language development, and shapes industry standards."
+    },
+    {
+        "Competency": "Testing & Quality Assurance",
+        "Level 1: Novice": "Writes basic unit tests for their code.",
+        "Level 2: Proficient": "Implements integration tests, understands TDD/BDD principles.",
+        "Level 3: Competent": "Develops comprehensive testing strategies, ensures high test coverage.",
+        "Level 4: Advanced": "Leads testing efforts across projects, introduces advanced testing methodologies.",
+        "Level 5: Expert": "Establishes testing standards organization-wide, mentors others, and influences QA practices."
+    },
+    {
+        "Competency": "DevOps & Automation",
+        "Level 1: Novice": "Understands basic CI/CD concepts, can set up simple pipelines.",
+        "Level 2: Proficient": "Automates routine tasks, manages CI/CD pipelines.",
+        "Level 3: Competent": "Optimizes CI/CD processes, integrates automated testing and deployment.",
+        "Level 4: Advanced": "Leads complex automation projects, implements cutting-edge DevOps practices.",
+        "Level 5: Expert": "Innovates in automation and deployment strategies, mentors team, influences industry practices."
+    },
+    {
+        "Competency": "Security & Privacy",
+        "Level 1: Novice": "Understands basic security concepts (e.g., authentication, encryption).",
+        "Level 2: Proficient": "Implements security best practices in code, follows security guidelines.",
+        "Level 3: Competent": "Conducts security reviews, mitigates common vulnerabilities (e.g., OWASP Top Ten).",
+        "Level 4: Advanced": "Leads security initiatives, ensures compliance with industry standards (e.g., GDPR, HIPAA).",
+        "Level 5: Expert": "Influences security strategies, mentors others, contributes to security research, drives organizational security culture."
+    },
+    {
+        "Competency": "Cloud Infrastructure",
+        "Level 1: Novice": "Understands basic cloud services (e.g., compute, storage).",
+        "Level 2: Proficient": "Deploys applications to the cloud, manages resources effectively.",
+        "Level 3: Competent": "Designs and optimizes cloud architectures for performance and cost.",
+        "Level 4: Advanced": "Leads cloud migration and architecture for large-scale systems, ensures resilience and scalability.",
+        "Level 5: Expert": "Innovates in cloud infrastructure strategies, mentors others, influences industry practices in cloud computing."
+    },
+    {
+        "Competency": "Code Quality & Maintainability",
+        "Level 1: Novice": "Follows basic coding standards, writes readable code.",
+        "Level 2: Proficient": "Adheres to coding standards, performs code reviews for peers.",
+        "Level 3: Competent": "Implements and enforces best practices for code quality and maintainability.",
+        "Level 4: Advanced": "Leads initiatives to improve code quality across teams, introduces advanced refactoring techniques.",
+        "Level 5: Expert": "Establishes organization-wide coding standards, mentors others, influences industry practices for maintainable code."
+    }
+]

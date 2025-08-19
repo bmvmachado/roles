@@ -1,0 +1,66 @@
+[
+    {
+        "Competency": "CI/CD Pipelines",
+        "Level 1: Novice": "Understands basic CI/CD concepts, sets up simple pipelines",
+        "Level 2: Proficient": "Automates routine tasks, manages CI/CD pipelines",
+        "Level 3: Competent": "Optimizes CI/CD processes, integrates automated testing and deployment",
+        "Level 4: Advanced": "Leads complex automation projects, implements cutting-edge CI/CD practices",
+        "Level 5: Expert": "Innovates in CI/CD strategies, mentors team, influences industry practices"
+    },
+    {
+        "Competency": "Infrastructure as Code (IaC)",
+        "Level 1: Novice": "Familiar with basic IaC tools (e.g., Terraform, Ansible)",
+        "Level 2: Proficient": "Implements infrastructure using IaC, manages configurations",
+        "Level 3: Competent": "Designs and maintains complex IaC setups, ensures scalability",
+        "Level 4: Advanced": "Leads IaC initiatives, optimizes infrastructure for performance and cost",
+        "Level 5: Expert": "Innovates in IaC practices, mentors others, contributes to open-source projects"
+    },
+    {
+        "Competency": "Monitoring & Logging",
+        "Level 1: Novice": "Understands basic monitoring and logging concepts",
+        "Level 2: Proficient": "Sets up monitoring tools, analyzes logs for issues",
+        "Level 3: Competent": "Develops comprehensive monitoring strategies, ensures system reliability",
+        "Level 4: Advanced": "Leads monitoring and logging initiatives, optimizes system performance",
+        "Level 5: Expert": "Establishes monitoring standards, mentors others, influences industry practices"
+    },
+    {
+        "Competency": "Cloud Services",
+        "Level 1: Novice": "Understands basic cloud services (e.g., compute, storage)",
+        "Level 2: Proficient": "Deploys applications to the cloud, manages resources effectively",
+        "Level 3: Competent": "Designs and optimizes cloud architectures for performance and cost",
+        "Level 4: Advanced": "Leads cloud migration and architecture for large-scale systems, ensures resilience and scalability",
+        "Level 5: Expert": "Innovates in cloud infrastructure strategies, mentors others, influences industry practices"
+    },
+    {
+        "Competency": "Automation & Scripting",
+        "Level 1: Novice": "Writes basic scripts for automation tasks",
+        "Level 2: Proficient": "Automates complex tasks, manages automation tools",
+        "Level 3: Competent": "Develops and maintains automation frameworks, ensures efficiency",
+        "Level 4: Advanced": "Leads automation projects, implements advanced scripting techniques",
+        "Level 5: Expert": "Innovates in automation strategies, mentors team, contributes to automation research"
+    },
+    {
+        "Competency": "Security & Compliance",
+        "Level 1: Novice": "Understands basic security concepts (e.g., authentication, encryption)",
+        "Level 2: Proficient": "Implements security best practices, follows compliance guidelines",
+        "Level 3: Competent": "Conducts security reviews, mitigates common vulnerabilities",
+        "Level 4: Advanced": "Leads security initiatives, ensures compliance with industry standards (e.g., GDPR, HIPAA)",
+        "Level 5: Expert": "Influences security strategies, mentors others, contributes to security research, drives organizational security culture"
+    },
+    {
+        "Competency": "Collaboration & Communication",
+        "Level 1: Novice": "Communicates effectively with team members, collaborates on tasks",
+        "Level 2: Proficient": "Coordinates with cross-functional teams, provides clear communication",
+        "Level 3: Competent": "Develops collaboration strategies, ensures effective communication",
+        "Level 4: Advanced": "Leads collaboration efforts, fosters a collaborative environment",
+        "Level 5: Expert": "Establishes communication standards, mentors others, influences organizational culture"
+    },
+    {
+        "Competency": "Continuous Improvement",
+        "Level 1: Novice": "Participates in process improvement activities",
+        "Level 2: Proficient": "Implements process improvements, tracks results",
+        "Level 3: Competent": "Develops continuous improvement strategies, ensures process optimization",
+        "Level 4: Advanced": "Leads continuous improvement efforts, drives organizational change",
+        "Level 5: Expert": "Influences continuous improvement culture, mentors others"
+    }
+]

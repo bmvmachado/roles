@@ -1,0 +1,47 @@
+[
+    {
+        "Overview": "As a Junior DevOps Engineer, you are at the beginning of your DevOps career. You focus on learning foundational DevOps practices and performing basic automation tasks under the guidance of experienced colleagues. You demonstrate curiosity, a willingness to learn, and the ability to collaborate effectively with your team. Your work is scoped to individual tasks, and your impact is primarily local to your immediate team. You are developing technical skills and behavioral competencies that will support your growth into more advanced roles.",
+        "Level": "Junior DevOps Engineer",
+        "Experience (Guidance)": "< 2 years",
+        "Scope Of Influence": "Individual",
+        "Responsibilities": "Basic automation tasks, learning CI/CD processes",
+        "Mentorship": "Receives guidance from experienced colleagues",
+        "Impact": "Delivers reliable infrastructure and automation solutions. Improves CI/CD pipelines and supports team efficiency."
+    },
+    {
+        "Overview": "As a DevOps Engineer, you are responsible for implementing and managing CI/CD pipelines, ensuring system reliability and performance. You work independently on well-defined tasks and may begin mentoring junior team members. Your contributions enhance system automation and support operational excellence across the organization. You demonstrate growing expertise in DevOps practices and begin to influence broader technical decisions.",
+        "Level": "DevOps Engineer",
+        "Experience (Guidance)": "2-4 years",
+        "Scope Of Influence": "Individual",
+        "Responsibilities": "Implements CI/CD pipelines, manages infrastructure",
+        "Mentorship": "May start mentoring junior team members",
+        "Impact": "Leads small automation initiatives. Enhances system reliability and performance through proactive improvements."
+    },
+    {
+        "Overview": "As a DevOps Engineer II, you take on advanced automation tasks and make significant contributions to infrastructure development. You lead small projects, mentor junior engineers, and solve complex infrastructure challenges. Your work drives team-wide DevOps practices and contributes to the scalability and efficiency of systems. You are a technical leader within your team and a trusted advisor on DevOps-related decisions.",
+        "Level": "DevOps Engineer II",
+        "Experience (Guidance)": "4-6 years",
+        "Scope Of Influence": "Individual",
+        "Responsibilities": "Advanced automation, significant contributions to infrastructure",
+        "Mentorship": "Mentors junior DevOps engineers, leads small projects",
+        "Impact": "Drives team-wide DevOps practices. Solves complex infrastructure challenges and mentors peers."
+    },
+    {
+        "Overview": "As a Senior DevOps Engineer, you are responsible for overseeing DevOps projects and managing a team of DevOps engineers. You define the technical vision for DevOps initiatives and ensure alignment with business goals. Your role involves strategic planning, architecture design, and fostering a culture of collaboration and innovation within the team.",
+        "Level": "Senior DevOps Engineer",
+        "Experience (Guidance)": "6-9 years",
+        "Scope Of Influence": "Team",
+        "Responsibilities": "Deep expertise in automation and infrastructure, leadership roles",
+        "Mentorship": "Designs and optimizes CI/CD processes, solves complex issues",
+        "Impact": "Shapes DevOps strategy across teams. Aligns infrastructure goals with business outcomes and leads cross-functional initiatives."
+    },
+    {
+        "Overview":"As Director of DevOps, you own and drive DevOps projects across tribes and influence company-wide infrastructure strategy. You manage larger teams, provide strategic input, and lead innovation in automation, scalability, and operational excellence. Your leadership ensures that DevOps initiatives are aligned with business goals and deliver long-term value across the organization.",
+        "Level": "Director of DevOps",
+        "Experience (Guidance)": "9-12 years",
+        "Scope Of Influence": "Tribe",
+        "Responsibilities": "Full ownership of DevOps projects, team management",
+        "Mentorship": "Manages larger DevOps teams, provides strategic input on infrastructure",
+        "Impact": "Influences company-wide DevOps direction. Drives innovation in automation, scalability, and operational excellence."
+    }
+]

@@ -1,0 +1,82 @@
+{
+    "SubAreaSkills": {
+        "Performance Testing": {
+            "QA Engineer": "L1",
+            "Senior QA Engineer": "L2",
+            "Lead QA Engineer": "L3"
+        },
+        "Security Testing": {
+            "Junior QA Engineer": "L1",
+            "QA Engineer": "See Previous",
+            "Senior QA Engineer": "L2",
+            "Lead QA Engineer": "L3"
+        },
+        "Test Management": {
+            "Junior QA Engineer": "L1",
+            "QA Engineer": "See Previous",
+            "Senior QA Engineer": "L2",
+            "Lead QA Engineer": "See Previous"
+        },
+        "Defect Management": {
+            "Senior QA Engineer": "L1",
+            "Lead QA Engineer": "L2"
+        },
+        "Quality Metrics": {
+            "Senior QA Engineer": "L1",
+            "Lead QA Engineer": "L2"
+        },
+        "Continuous Improvement": {
+            "Senior QA Engineer": "L1",
+            "Lead QA Engineer": "L2"
+        },
+        "Collaboration & Communication": {
+            "QA Engineer": "L1",
+            "Senior QA Engineer": "L2",
+            "Lead QA Engineer": "See Previous"
+        },
+        "Conflict Management": {
+            "Senior QA Engineer": "L1",
+            "Lead QA Engineer": "L2"
+        },
+        "Mentoring & Coaching": {
+            "Senior QA Engineer": "L1",
+            "Lead QA Engineer": "L2"
+        },
+        "Communication": {
+            "Junior QA Engineer": "L1",
+            "QA Engineer": "See Previous",
+            "Lead QA Engineer": "L2"
+        },
+        "Project Management": {
+            "Senior QA Engineer": "L1",
+            "Lead QA Engineer": "L2"
+        },
+        "Decision Making": {
+            "QA Engineer": "L1",
+            "Senior QA Engineer": "See Previous",
+            "Lead QA Engineer": "L2"
+        },
+        "Vision & Strategy": {
+            "QA Engineer": "L1",
+            "Senior QA Engineer": "See Previous",
+            "Lead QA Engineer": "L2"
+        },
+        "Team Building & Motivation": {
+            "Junior QA Engineer": "L1",
+            "QA Engineer": "See Previous",
+            "Senior QA Engineer": "L2",
+            "Lead QA Engineer": "See Previous"
+        },
+        "Innovation Leadership": {
+            "QA Engineer": "L1",
+            "Senior QA Engineer": "See Previous",
+            "Lead QA Engineer": "L2"
+        },
+        "Budget Management": {},
+        "Driving Disruptiveness": {
+            "QA Engineer": "L1",
+            "Senior QA Engineer": "See Previous",
+            "Lead QA Engineer": "L2"
+        }
+    }
+}
