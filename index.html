@@ -2,6 +2,8 @@
 
 <html>
   <head>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
     <style>
       /* FIZX-inspired stylesheet */
       body {
@@ -67,6 +69,30 @@
         color: #ffd803; /* Yellow for sidebar heading */
         margin-bottom: 18px;
         letter-spacing: 1px;
+      }
+
+      .collapsible {
+        background: #232946;
+        color: #ffd803;
+        font-weight: 600;
+        padding: 10px 16px;
+        border: none;
+        text-align: left;
+        width: 100%;
+        cursor: pointer;
+        border-radius: 8px;
+        margin-bottom: 8px;
+        transition: background 0.2s;
+      }
+
+      .collapsible:hover {
+        background: #2a2f3d;
+      }
+
+      .content {
+        display: none;
+        padding-left: 20px;
+        margin-bottom: 16px;
       }
 
       #sidebar ul {
@@ -150,6 +176,225 @@
         }
       }
     </style>
+    <script>
+      // Add any JavaScript here if needed
+
+      async function getJsonFilesAsObject() {
+        const owner = "bmvmachado";
+        const repo = "roles";
+        const path = "Data";
+        const apiUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${path}`;
+
+        try {
+          const response = await fetch(apiUrl);
+          const files = await response.json();
+
+          const jsonFiles = files.filter((file) => file.name.endsWith(".json"));
+
+          const combinedJson = {};
+
+          for (const file of jsonFiles) {
+            const fileResponse = await fetch(file.download_url);
+            const fileContent = await fileResponse.json();
+            combinedJson[file.name] = fileContent;
+          }
+
+          return combinedJson;
+        } catch (error) {
+          console.error("Failed to fetch JSON files:", error);
+          return null;
+        }
+      }
+
+      dataFull = "";
+      getJsonFilesAsObject()
+        .then((data) => {
+          dataFull = data;
+
+          // Example JSON data
+          Object.keys(dataFull).forEach((key) => {
+            if (key.includes("table_1.json") && !key.includes("Behavioral")) {
+              const button = document.createElement("button");
+              button.className = "collapsible";
+              button.textContent = `${key.replace("_table_1.json", "")}`;
+
+              const content = document.createElement("div");
+              content.className = "content";
+
+              dataFull[key].forEach((entry) => {
+                const li = document.createElement("li");
+                li.innerHTML = `<a href="#" onclick="changeRole('${
+                  entry.Level
+                }', '${key.split("_")[0]}')">${entry.Level}</a>`;
+                content.appendChild(li);
+              });
+
+              button.addEventListener("click", () => {
+                content.style.display =
+                  content.style.display === "block" ? "none" : "block";
+              });
+              document.getElementById("roleList").appendChild(button);
+              document.getElementById("roleList").appendChild(content);
+            }
+          });
+          changeRole("Junior Software Engineer", "Software Engineering");
+        })
+        .catch((error) => {
+          console.error("Error loading data:", error);
+          document.getElementById("overview").innerText = "Error loading data.";
+        });
+
+      function changeRole(role, discipline) {
+        dataFull[`${discipline}_table_1.json`]
+          .filter((entry) => entry.Level === role)
+          .forEach((entry) => {
+            document.getElementById("title").innerText = role;
+            document.getElementById("overview").innerText = entry.Overview;
+            document.getElementById("experience").innerText =
+              entry["Experience (Guidance)"];
+            document.getElementById("scope").innerText =
+              entry["Scope Of Influence"];
+            document.getElementById("responsibilities").innerText =
+              entry.Responsibilities;
+            document.getElementById("mentorship").innerText = entry.Mentorship;
+            document.getElementById("impact").innerText = entry.Impact;
+          });
+
+        const jsonDataTech = {
+          Category: [],
+          values: [],
+        };
+
+        const jsonDataBehavioral = {
+          Category: [],
+          values: [],
+        };
+
+        var jumpToBehavioral = false;
+        Object.entries(
+          dataFull[`${discipline} - Matrix.json`].SubAreaSkills
+        ).forEach(([key, value]) => {
+          level =
+            dataFull[`${discipline} - Matrix.json`].SubAreaSkills[key][role];
+
+          if (key === "Conflict Management") jumpToBehavioral = true;
+
+          console.log(`JSON Data: key :${key} ${level}`);
+          if (jumpToBehavioral) {
+            jsonDataBehavioral.Category.push(key);
+            if (level && level[0] === "L") {
+              jsonDataBehavioral.values.push(level.slice(1));
+            }
+          } else {
+            jsonDataTech.Category.push(key);
+            if (level && level[0] === "L") {
+              jsonDataTech.values.push(level.slice(1));
+            }
+          }
+        });
+
+        console.log("JSON DataTech:", jsonDataTech);
+
+        console.log("JSON jsonDataBehavioral:", jsonDataBehavioral);
+
+        writeChart(
+          "competenciesTechnicalChart",
+          role,
+          jsonDataTech,
+          "Technical Competencies"
+        );
+        writeChart(
+          "competenciesBehavioralChart",
+          role,
+          jsonDataBehavioral,
+          "Behavioral Competencies"
+        );
+
+        writeCompetencies(
+          "competenciesTechnical",
+          dataFull[`${discipline}_table_2.json`],
+          jsonDataTech
+        );
+
+        writeCompetencies(
+          "competenciesBehavioral",
+          dataFull["Behavioral_table_1.json"],
+          jsonDataBehavioral
+        );
+      }
+
+      function writeCompetencies(elementId, dataFull, data) {
+        const container = document.getElementById(elementId);
+        container.innerHTML = ""; // Clear existing content
+
+        Object.entries(data.Category.slice(data.values.length)).forEach(
+          ([key, value]) => {
+            console.log("Key:", key, "Value:", value);
+            const competencyLevel = dataFull.filter(
+              (b) => b.Competency === value
+            );
+            console.log("Competency Level:", competencyLevel);
+            if (competencyLevel) {
+              const competencyDiv = document.createElement("div");
+              competencyDiv.classList.add("competency");
+              var levelValue = Number(data.values[key]);
+              var description =
+                competencyLevel[0][
+                  Object.keys(competencyLevel[0])[levelValue + 1]
+                ];
+              if (description) {
+                competencyDiv.innerHTML = `
+                      <p>
+                        <strong>${competencyLevel[0].Competency} (L${levelValue}):</strong> ${description}
+                      </p>
+                    `;
+                container.appendChild(competencyDiv);
+              }
+            }
+          }
+        );
+      }
+
+      function writeChart(chartId, label, data, title) {
+        const ctx = document.getElementById(chartId).getContext("2d");
+
+        if (Chart.getChart(chartId)) {
+          Chart.getChart(chartId)?.destroy();
+        }
+
+        const spiderChart = new Chart(ctx, {
+          type: "radar",
+          data: {
+            labels: data.Category,
+            datasets: [
+              {
+                label: label,
+                data: data.values,
+                fill: true,
+                backgroundColor: "rgba(54, 162, 235, 0.2)",
+                borderColor: "rgba(54, 162, 235, 1)",
+                pointBackgroundColor: "rgba(54, 162, 235, 1)",
+              },
+            ],
+          },
+          options: {
+            responsive: false,
+            plugins: {
+              title: {
+                display: true,
+                text: title,
+              },
+            },
+            scales: {
+              r: {
+                beginAtZero: true,
+                max: 5,
+              },
+            },
+          },
+        });
+      }
+    </script>
   </head>
   <body>
     <header>
@@ -183,126 +428,34 @@
       ></div>
     </header>
     <div id="sidebar">
-      <h2>Software Engineering</h2>
-      <ul>
-        <li>
-          <a href="enhanced_junior_software_engineer.html"
-            >Junior Software Engineer</a
-          >
-        </li>
-        <li>
-          <a href="enhanced_software_engineer.html">Software Engineer</a>
-        </li>
-        <li>
-          <a href="enhanced_software_engineer_ii.html">Software Engineer II</a>
-        </li>
-        <li>
-          <a href="enhanced_senior_software_engineer.html"
-            >Senior Software Engineer
-          </a>
-        </li>
-      </ul>
+      <h2></h2>
+      <ul id="roleList"></ul>
     </div>
     <div class="section">
       <div class="section">
-        <h1>Junior Software Engineer</h1>
+        <h1 id="title"></h1>
         <p></p>
         <h2>Overview</h2>
-        <p>
-          As a Junior Software Engineer, you are beginning your journey in
-          software development. You are expected to perform basic coding tasks
-          under guidance, learn foundational concepts, and contribute to your
-          team’s success. You demonstrate curiosity, a willingness to learn, and
-          the ability to collaborate effectively with peers. Your work is scoped
-          to individual tasks and your impact is primarily local to your
-          immediate team. You are developing technical skills and behavioral
-          competencies that will support your growth into more advanced roles.
-        </p>
+        <p id="overview"></p>
         <p />
-        <p><strong>Experience:</strong> &lt; 2 years</p>
-        <p><strong>Scope Of Influence:</strong> Individual</p>
-        <p><strong>Responsibilities:</strong> Basic coding tasks, learning</p>
+        <p><strong>Experience:</strong> <span id="experience"></span></p>
+        <p><strong>Scope Of Influence:</strong> <span id="scope"></span></p>
         <p>
-          <strong>Mentorship:</strong> Receives guidance from experienced
-          colleagues
+          <strong>Responsibilities:</strong> <span id="responsibilities"></span>
         </p>
-        <p>
-          <strong>Impact:</strong> Contributes to team success by completing
-          well-defined tasks and learning from peers. Impact is primarily local
-          to their immediate team.
-        </p>
+        <p><strong>Mentorship:</strong> <span id="mentorship"></span></p>
+        <p><strong>Impact:</strong> <span id="impact"></span></p>
       </div>
       <div class="section">
         <h2>Technical Competencies</h2>
-        <img alt="Technical Competencies Chart" src="Junior.png" width="500" />
-        <div class="competency">
-          <p>
-            <strong>Data Structures (L1):</strong> Understands basic data
-            structures (arrays, linked lists).
-          </p>
-        </div>
-        <div class="competency">
-          <p>
-            <strong>Algorithms (L1):</strong> Knows basic algorithms (sorting,
-            searching).
-          </p>
-        </div>
-        <div class="competency">
-          <p>
-            <strong>Database Management (L1):</strong> Basic understanding of
-            SQL/NoSQL databases.
-          </p>
-        </div>
-        <div class="competency">
-          <p>
-            <strong>Programming Languages (L1):</strong> Familiar with one
-            programming language, follows best practices.
-          </p>
-        </div>
-        <div class="competency">
-          <p>
-            <strong>Code Quality &amp; Maintainability (L1):</strong> Follows
-            basic coding standards, writes readable code.
-          </p>
-        </div>
+
+        <canvas id="competenciesTechnicalChart"></canvas>
+        <div id="competenciesTechnical"></div>
       </div>
       <div class="section">
         <h2>Behavioral Competencies</h2>
-        <img
-          alt="Behavioral Competencies Chart"
-          src="Junior_b.png"
-          width="500"
-        />
-        <div class="competency">
-          <p>
-            <strong>Communication (L1):</strong> Communicates clearly with
-            immediate team members.
-          </p>
-        </div>
-        <div class="competency">
-          <p>
-            <strong>Teamwork (L1):</strong> Works well within a small team,
-            contributes to team goals.
-          </p>
-        </div>
-        <div class="competency">
-          <p>
-            <strong>Problem Solving (L1):</strong> Approaches simple problems
-            methodically, finds basic solutions.
-          </p>
-        </div>
-        <div class="competency">
-          <p>
-            <strong>Adaptability (L1):</strong> Adapts to minor changes and new
-            tasks with guidance.
-          </p>
-        </div>
-        <div class="competency">
-          <p>
-            <strong>Continuous Improvement (L1):</strong> Seeks opportunities
-            for self-improvement, learns from feedback.
-          </p>
-        </div>
+        <canvas id="competenciesBehavioralChart"></canvas>
+        <div id="competenciesBehavioral"></div>
       </div>
     </div>
   </body>
