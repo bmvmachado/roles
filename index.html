@@ -237,14 +237,23 @@
               document.getElementById("roleList").appendChild(content);
             }
           });
-          changeRole("Junior Software Engineer", "Software Engineering");
+          //changeRole("Junior Software Engineer", "Software Engineering");
         })
         .catch((error) => {
           console.error("Error loading data:", error);
           document.getElementById("overview").innerText = "Error loading data.";
         });
 
+      function toggleOverview() {        
+        document.getElementById("role").style.display = "none";
+        document.getElementById("global").style.display = "block";
+      }
+
       function changeRole(role, discipline) {
+
+        document.getElementById("role").style.display = "block";
+        document.getElementById("global").style.display = "none";
+
         dataFull[`${discipline}_table_1.json`]
           .filter((entry) => entry.Level === role)
           .forEach((entry) => {
@@ -429,9 +438,15 @@
     </header>
     <div id="sidebar">
       <h2></h2>
+      <ul>
+        <button onclick="toggleOverview()" class="collapsible">Overview</button>
+      </ul>
       <ul id="roleList"></ul>
     </div>
-    <div class="section">
+    <div id="global" class="section">
+      <img src="Global.png" alt="Role Image" style="display: block;" />
+    </div>
+    <div id="role" class="section" style="display: none;">
       <div class="section">
         <h1 id="title"></h1>
         <p></p>
