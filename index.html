@@ -336,7 +336,7 @@
         const container = document.getElementById(elementId);
         container.innerHTML = ""; // Clear existing content
 
-        Object.entries(data.Category.slice(data.values.length)).forEach(
+        Object.entries(data.Category).forEach(
           ([key, value]) => {
             console.log("Key:", key, "Value:", value);
             const competencyLevel = dataFull.filter(
