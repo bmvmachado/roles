@@ -1,99 +1,99 @@
 {
     "SubAreaSkills": {
         "Data Pipelines": {
-            "Levels": "L1",
-            "Unnamed: 3": "L2",
-            "Unnamed: 4": "L3",
-            "Unnamed: 5": "L4"
+            "Junior Data Engineer": "L1",
+            "Data Engineer": "L2",
+            "Senior Data Engineer": "L3",
+            "Lead Data Engineer": "L4"
         },
         "ETL Processes": {
-            "Levels": "L1",
-            "Unnamed: 3": "L2",
-            "Unnamed: 4": "See Previous",
-            "Unnamed: 5": "L3"
+            "Junior Data Engineer": "L1",
+            "Data Engineer": "L2",
+            "Senior Data Engineer": "See Previous",
+            "Lead Data Engineer": "L3"
         },
         "Data Warehousing": {
-            "Unnamed: 3": "L1",
-            "Unnamed: 4": "L2",
-            "Unnamed: 5": "L3"
+            "Data Engineer": "L1",
+            "Senior Data Engineer": "L2",
+            "Lead Data Engineer": "L3"
         },
         "Big Data Technologies": {
-            "Levels": "L1",
-            "Unnamed: 3": "See Previous",
-            "Unnamed: 4": "L2",
-            "Unnamed: 5": "L3"
+            "Junior Data Engineer": "L1",
+            "Data Engineer": "See Previous",
+            "Senior Data Engineer": "L2",
+            "Lead Data Engineer": "L3"
         },
         "Data Integration": {
-            "Levels": "L1",
-            "Unnamed: 3": "See Previous",
-            "Unnamed: 4": "L2",
-            "Unnamed: 5": "See Previous"
+            "Junior Data Engineer": "L1",
+            "Data Engineer": "See Previous",
+            "Senior Data Engineer": "L2",
+            "Lead Data Engineer": "See Previous"
         },
         "Data Quality & Governance": {
-            "Unnamed: 4": "L1",
-            "Unnamed: 5": "L2"
+            "Senior Data Engineer": "L1",
+            "Lead Data Engineer": "L2"
         },
         "Cloud Data Services": {
-            "Unnamed: 4": "L1",
-            "Unnamed: 5": "L2"
+            "Senior Data Engineer": "L1",
+            "Lead Data Engineer": "L2"
         },
         "Programming & Scripting": {
-            "Unnamed: 4": "L1",
-            "Unnamed: 5": "L2"
+            "Senior Data Engineer": "L1",
+            "Lead Data Engineer": "L2"
         },
         "Collaboration & Communication": {
-            "Unnamed: 3": "L1",
-            "Unnamed: 4": "L2",
-            "Unnamed: 5": "L3"
+            "Data Engineer": "L1",
+            "Senior Data Engineer": "L2",
+            "Lead Data Engineer": "L3"
         },
         "Continuous Improvement": {
-            "Unnamed: 3": "L1",
-            "Unnamed: 4": "See Previous",
-            "Unnamed: 5": "L2"
+            "Data Engineer": "L1",
+            "Senior Data Engineer": "See Previous",
+            "Lead Data Engineer": "L2"
         },
         "Conflict Management": {
-            "Unnamed: 4": "L1",
-            "Unnamed: 5": "L2"
+            "Senior Data Engineer": "L1",
+            "Lead Data Engineer": "L2"
         },
         "Mentoring & Coaching": {
-            "Unnamed: 4": "L1",
-            "Unnamed: 5": "L2"
+            "Senior Data Engineer": "L1",
+            "Lead Data Engineer": "L2"
         },
         "Communication": {
-            "Levels": "L1",
-            "Unnamed: 3": "See Previous",
-            "Unnamed: 5": "L2"
+            "Junior Data Engineer": "L1",
+            "Data Engineer": "See Previous",
+            "Lead Data Engineer": "L2"
         },
         "Project Management": {
-            "Unnamed: 4": "L1",
-            "Unnamed: 5": "L2"
+            "Senior Data Engineer": "L1",
+            "Lead Data Engineer": "L2"
         },
         "Decision Making": {
-            "Unnamed: 3": "L1",
-            "Unnamed: 4": "See Previous",
-            "Unnamed: 5": "L2"
+            "Data Engineer": "L1",
+            "Senior Data Engineer": "See Previous",
+            "Lead Data Engineer": "L2"
         },
         "Vision & Strategy": {
-            "Unnamed: 3": "L1",
-            "Unnamed: 4": "See Previous",
-            "Unnamed: 5": "L2"
+            "Data Engineer": "L1",
+            "Senior Data Engineer": "See Previous",
+            "Lead Data Engineer": "L2"
         },
         "Team Building & Motivation": {
-            "Levels": "L1",
-            "Unnamed: 3": "See Previous",
-            "Unnamed: 4": "L2",
-            "Unnamed: 5": "See Previous"
+            "Junior Data Engineer": "L1",
+            "Data Engineer": "See Previous",
+            "Senior Data Engineer": "L2",
+            "Lead Data Engineer": "See Previous"
         },
         "Innovation Leadership": {
-            "Unnamed: 3": "L1",
-            "Unnamed: 4": "See Previous",
-            "Unnamed: 5": "L2"
+            "Data Engineer": "L1",
+            "Senior Data Engineer": "See Previous",
+            "Lead Data Engineer": "L2"
         },
         "Budget Management": {},
         "Driving Disruptiveness": {
-            "Unnamed: 3": "L1",
-            "Unnamed: 4": "See Previous",
-            "Unnamed: 5": "L2"
+            "Data Engineer": "L1",
+            "Senior Data Engineer": "See Previous",
+            "Lead Data Engineer": "L2"
         }
     }
 }
