@@ -1,0 +1,82 @@
+[
+    {
+        "Competency": "Conflict Management",
+        "Level 1: Novice": "Recognizes conflicts within the team.",
+        "Level 2: Proficient": "Participates in resolving minor conflicts with guidance.",
+        "Level 3: Competent": "Manages and resolves conflicts within the team independently.",
+        "Level 4: Advanced": "Leads conflict resolution efforts across teams, ensuring constructive outcomes.",
+        "Level 5: Expert": "Develops conflict resolution frameworks, mentors others in conflict management, influences organizational culture."
+    },
+    {
+        "Competency": "Mentoring & Coaching",
+        "Level 1: Novice": "Provides basic guidance to peers on specific tasks.",
+        "Level 2: Proficient": "Regularly mentors junior engineers, provides constructive feedback.",
+        "Level 3: Competent": "Coaches peers and develops individual growth plans.",
+        "Level 4: Advanced": "Leads mentorship programs, actively develops high-potential individuals.",
+        "Level 5: Expert": "Establishes organization-wide mentoring culture, influences career development programs, mentors senior leaders."
+    },
+    {
+        "Competency": "Communication",
+        "Level 1: Novice": "Communicates clearly within the team.",
+        "Level 2: Proficient": "Effectively communicates with cross-functional teams and stakeholders.",
+        "Level 3: Competent": "Leads team discussions, presents ideas clearly to large audiences.",
+        "Level 4: Advanced": "Influences cross-departmental communication, handles complex communications.",
+        "Level 5: Expert": "Shapes organizational communication strategy, mentors others, and influences public communication."
+    },
+    {
+        "Competency": "Project Management",
+        "Level 1: Novice": "Assists in small project tasks, understands project goals.",
+        "Level 2: Proficient": "Manages small to medium projects with clear objectives and timelines.",
+        "Level 3: Competent": "Leads large projects, ensures delivery within scope, time, and budget.",
+        "Level 4: Advanced": "Manages multiple complex projects, aligns them with organizational goals.",
+        "Level 5: Expert": "Oversees strategic projects, ensures alignment with business strategy, influences project management practices across the organization."
+    },
+    {
+        "Competency": "Decision Making",
+        "Level 1: Novice": "Participates in team decision-making processes.",
+        "Level 2: Proficient": "Makes informed decisions, considering short-term impacts and team input.",
+        "Level 3: Competent": "Leads decision-making in complex situations, considers long-term effects.",
+        "Level 4: Advanced": "Guides teams through critical decision-making, balancing risks and rewards.",
+        "Level 5: Expert": "Shapes organizational decision-making frameworks, mentors others in decision processes, influences strategic direction."
+    },
+    {
+        "Competency": "Vision & Strategy",
+        "Level 1: Novice": "Understands the team’s goals and aligns their work accordingly.",
+        "Level 2: Proficient": "Contributes to the development of team strategies and goals.",
+        "Level 3: Competent": "Shapes team vision, aligns it with organizational objectives.",
+        "Level 4: Advanced": "Leads strategic planning for multiple teams, influences broader organizational direction.",
+        "Level 5: Expert": "Defines and drives organizational strategy, mentors leaders, and shapes long-term vision."
+    },
+    {
+        "Competency": "Team Building & Motivation",
+        "Level 1: Novice": "Supports team activities, contributes to a positive work environment.",
+        "Level 2: Proficient": "Actively works to build and maintain team morale, resolves minor issues.",
+        "Level 3: Competent": "Leads initiatives to build a high-performing, cohesive team.",
+        "Level 4: Advanced": "Shapes team culture, implements strategies for team motivation and retention.",
+        "Level 5: Expert": "Influences organizational culture, drives company-wide initiatives for engagement, and is recognized as a leader in team building."
+    },
+    {
+        "Competency": "Innovation Leadership",
+        "Level 1: Novice": "Participates in brainstorming sessions, supports small innovative efforts.",
+        "Level 2: Proficient": "Actively contributes to innovation projects, promotes creative thinking.",
+        "Level 3: Competent": "Leads innovation projects, encourages experimentation within the team.",
+        "Level 4: Advanced": "Drives innovation across multiple teams, ensures alignment with organizational strategy.",
+        "Level 5: Expert": "Establishes an innovation-driven culture, mentors leaders in innovation, and influences industry-wide practices."
+    },
+    {
+        "Competency": "Budget Management",
+        "Level 1: Novice": "Understands basic budgeting principles, manages small budgets with guidance.",
+        "Level 2: Proficient": "Manages project budgets effectively, ensures cost efficiency.",
+        "Level 3: Competent": "Oversees budgets for multiple projects, aligns spending with organizational goals.",
+        "Level 4: Advanced": "Leads budget planning and management for departments or large programs, balances cost with strategic objectives.",
+        "Level 5: Expert": "Influences organizational financial strategy, mentors others in budget management, ensures alignment of budget with long-term vision."
+    },
+    {
+        "Competency": "Driving Disruptiveness",
+        "Level 1: Novice": "Open to new ideas, supports change initiatives within the team.",
+        "Level 2: Proficient": "Leads small-scale change initiatives, challenges status quo in constructive ways.",
+        "Level 3: Competent": "Drives significant changes within the team or department, fosters a culture of disruptiveness.",
+        "Level 4: Advanced": "Leads large-scale disruptive initiatives across the organization, aligns them with strategic goals.",
+        "Level 5: Expert": "Recognized as a change leader, mentors others in driving disruptiveness, shapes industry practices through disruptive innovations."
+    }
+]
