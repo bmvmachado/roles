@@ -9,7 +9,7 @@
         "ETL Processes": {
             "Junior Data Engineer": "L1",
             "Data Engineer": "L2",
-            "Senior Data Engineer": "See Previous",
+            "Senior Data Engineer": "L2",
             "Lead Data Engineer": "L3"
         },
         "Data Warehousing": {
@@ -19,15 +19,15 @@
         },
         "Big Data Technologies": {
             "Junior Data Engineer": "L1",
-            "Data Engineer": "See Previous",
+            "Data Engineer": "L1",
             "Senior Data Engineer": "L2",
             "Lead Data Engineer": "L3"
         },
         "Data Integration": {
             "Junior Data Engineer": "L1",
-            "Data Engineer": "See Previous",
+            "Data Engineer": "L1",
             "Senior Data Engineer": "L2",
-            "Lead Data Engineer": "See Previous"
+            "Lead Data Engineer": "L2"
         },
         "Data Quality & Governance": {
             "Senior Data Engineer": "L1",
@@ -48,7 +48,7 @@
         },
         "Continuous Improvement": {
             "Data Engineer": "L1",
-            "Senior Data Engineer": "See Previous",
+            "Senior Data Engineer": "L1",
             "Lead Data Engineer": "L2"
         },
         "Conflict Management": {
@@ -61,7 +61,7 @@
         },
         "Communication": {
             "Junior Data Engineer": "L1",
-            "Data Engineer": "See Previous",
+            "Data Engineer": "L1",
             "Lead Data Engineer": "L2"
         },
         "Project Management": {
@@ -70,29 +70,29 @@
         },
         "Decision Making": {
             "Data Engineer": "L1",
-            "Senior Data Engineer": "See Previous",
+            "Senior Data Engineer": "L1",
             "Lead Data Engineer": "L2"
         },
         "Vision & Strategy": {
             "Data Engineer": "L1",
-            "Senior Data Engineer": "See Previous",
+            "Senior Data Engineer": "L1",
             "Lead Data Engineer": "L2"
         },
         "Team Building & Motivation": {
             "Junior Data Engineer": "L1",
-            "Data Engineer": "See Previous",
+            "Data Engineer": "L1",
             "Senior Data Engineer": "L2",
-            "Lead Data Engineer": "See Previous"
+            "Lead Data Engineer": "L2"
         },
         "Innovation Leadership": {
             "Data Engineer": "L1",
-            "Senior Data Engineer": "See Previous",
+            "Senior Data Engineer": "L1",
             "Lead Data Engineer": "L2"
         },
         "Budget Management": {},
         "Driving Disruptiveness": {
             "Data Engineer": "L1",
-            "Senior Data Engineer": "See Previous",
+            "Senior Data Engineer": "L1",
             "Lead Data Engineer": "L2"
         }
     }

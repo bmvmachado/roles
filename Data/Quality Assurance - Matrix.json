@@ -7,15 +7,15 @@
         },
         "Security Testing": {
             "Junior QA Engineer": "L1",
-            "QA Engineer": "See Previous",
+            "QA Engineer": "L1",
             "Senior QA Engineer": "L2",
             "Lead QA Engineer": "L3"
         },
         "Test Management": {
             "Junior QA Engineer": "L1",
-            "QA Engineer": "See Previous",
+            "QA Engineer": "L1",
             "Senior QA Engineer": "L2",
-            "Lead QA Engineer": "See Previous"
+            "Lead QA Engineer": "L2"
         },
         "Defect Management": {
             "Senior QA Engineer": "L1",
@@ -32,7 +32,7 @@
         "Collaboration & Communication": {
             "QA Engineer": "L1",
             "Senior QA Engineer": "L2",
-            "Lead QA Engineer": "See Previous"
+            "Lead QA Engineer": "L2"
         },
         "Conflict Management": {
             "Senior QA Engineer": "L1",
@@ -44,7 +44,7 @@
         },
         "Communication": {
             "Junior QA Engineer": "L1",
-            "QA Engineer": "See Previous",
+            "QA Engineer": "L1",
             "Lead QA Engineer": "L2"
         },
         "Project Management": {
@@ -53,29 +53,29 @@
         },
         "Decision Making": {
             "QA Engineer": "L1",
-            "Senior QA Engineer": "See Previous",
+            "Senior QA Engineer": "L1",
             "Lead QA Engineer": "L2"
         },
         "Vision & Strategy": {
             "QA Engineer": "L1",
-            "Senior QA Engineer": "See Previous",
+            "Senior QA Engineer": "L1",
             "Lead QA Engineer": "L2"
         },
         "Team Building & Motivation": {
             "Junior QA Engineer": "L1",
-            "QA Engineer": "See Previous",
+            "QA Engineer": "L1",
             "Senior QA Engineer": "L2",
-            "Lead QA Engineer": "See Previous"
+            "Lead QA Engineer": "L2"
         },
         "Innovation Leadership": {
             "QA Engineer": "L1",
-            "Senior QA Engineer": "See Previous",
+            "Senior QA Engineer": "L1",
             "Lead QA Engineer": "L2"
         },
         "Budget Management": {},
         "Driving Disruptiveness": {
             "QA Engineer": "L1",
-            "Senior QA Engineer": "See Previous",
+            "Senior QA Engineer": "L1",
             "Lead QA Engineer": "L2"
         }
     }
