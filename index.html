@@ -179,6 +179,17 @@
     <script>
       // Add any JavaScript here if needed
 
+      function moveManagementToEnd(arr) {
+        const index = arr.findIndex((item) =>
+          item.toLowerCase().includes("management_table_1".toLowerCase())
+        );
+        if (index !== -1) {
+          const [item] = arr.splice(index, 1); // Remove the matched item
+          arr.push(item); // Add it to the end
+        }
+        return arr;
+      }
+
       async function getJsonFilesAsObject() {
         const owner = "bmvmachado";
         const repo = "roles";
@@ -212,7 +223,11 @@
           dataFull = data;
 
           // Example JSON data
-          Object.keys(dataFull).forEach((key) => {
+          var keys = Object.keys(dataFull);
+
+          keys = moveManagementToEnd(keys);
+
+          keys.forEach((key) => {
             if (key.includes("table_1.json") && !key.includes("Behavioral")) {
               const button = document.createElement("button");
               button.className = "collapsible";
@@ -244,13 +259,12 @@
           document.getElementById("overview").innerText = "Error loading data.";
         });
 
-      function toggleOverview() {        
+      function toggleOverview() {
         document.getElementById("role").style.display = "none";
         document.getElementById("global").style.display = "block";
       }
 
       function changeRole(role, discipline) {
-
         document.getElementById("role").style.display = "block";
         document.getElementById("global").style.display = "none";
 
@@ -306,12 +320,20 @@
 
         console.log("JSON jsonDataBehavioral:", jsonDataBehavioral);
 
-        writeChart(
-          "competenciesTechnicalChart",
-          role,
-          jsonDataTech,
-          "Technical Competencies"
-        );
+        if (jsonDataTech.values.length === 0) {
+          document.getElementById("noTechnicalCompetencies").style.display =
+            "block";
+        } else {
+          document.getElementById("noTechnicalCompetencies").style.display =
+            "none";
+          writeChart(
+            "competenciesTechnicalChart",
+            role,
+            jsonDataTech,
+            "Technical Competencies"
+          );
+        }
+
         writeChart(
           "competenciesBehavioralChart",
           role,
@@ -336,32 +358,30 @@
         const container = document.getElementById(elementId);
         container.innerHTML = ""; // Clear existing content
 
-        Object.entries(data.Category).forEach(
-          ([key, value]) => {
-            console.log("Key:", key, "Value:", value);
-            const competencyLevel = dataFull.filter(
-              (b) => b.Competency === value
-            );
-            console.log("Competency Level:", competencyLevel);
-            if (competencyLevel) {
-              const competencyDiv = document.createElement("div");
-              competencyDiv.classList.add("competency");
-              var levelValue = Number(data.values[key]);
-              var description =
-                competencyLevel[0][
-                  Object.keys(competencyLevel[0])[levelValue + 1]
-                ];
-              if (description) {
-                competencyDiv.innerHTML = `
+        Object.entries(data.Category).forEach(([key, value]) => {
+          console.log("Key:", key, "Value:", value);
+          const competencyLevel = dataFull.filter(
+            (b) => b.Competency === value
+          );
+          console.log("Competency Level:", competencyLevel);
+          if (competencyLevel) {
+            const competencyDiv = document.createElement("div");
+            competencyDiv.classList.add("competency");
+            var levelValue = Number(data.values[key]);
+            var description =
+              competencyLevel[0][
+                Object.keys(competencyLevel[0])[levelValue + 1]
+              ];
+            if (description) {
+              competencyDiv.innerHTML = `
                       <p>
                         <strong>${competencyLevel[0].Competency} (L${levelValue}):</strong> ${description}
                       </p>
                     `;
-                container.appendChild(competencyDiv);
-              }
+              container.appendChild(competencyDiv);
             }
           }
-        );
+        });
       }
 
       function writeChart(chartId, label, data, title) {
@@ -370,6 +390,17 @@
         if (Chart.getChart(chartId)) {
           Chart.getChart(chartId)?.destroy();
         }
+
+        const labelCount = data.Category.length;
+
+        // Dynamically adjust canvas size based on label count
+        const baseSize = 300;
+        const sizeMultiplier = Math.ceil(labelCount / 5); // Adjust this factor as needed
+        const canvasSize = baseSize + sizeMultiplier * 100;
+
+        // Set canvas dimensions
+        ctx.canvas.width = canvasSize;
+        ctx.canvas.height = canvasSize;
 
         const spiderChart = new Chart(ctx, {
           type: "radar",
@@ -444,9 +475,9 @@
       <ul id="roleList"></ul>
     </div>
     <div id="global" class="section">
-      <img src="Global.png" alt="Role Image" style="display: block;" />
+      <img src="Global.png" alt="Role Image" style="display: block" />
     </div>
-    <div id="role" class="section" style="display: none;">
+    <div id="role" class="section" style="display: none">
       <div class="section">
         <h1 id="title"></h1>
         <p></p>
@@ -463,13 +494,20 @@
       </div>
       <div class="section">
         <h2>Technical Competencies</h2>
+        <div style="padding-left: 5%">
+          <canvas id="competenciesTechnicalChart"></canvas>
+        </div>
 
-        <canvas id="competenciesTechnicalChart"></canvas>
         <div id="competenciesTechnical"></div>
+        <div id="noTechnicalCompetencies" style="display: none">
+          <p>Based on the previous role</p>
+        </div>
       </div>
       <div class="section">
         <h2>Behavioral Competencies</h2>
-        <canvas id="competenciesBehavioralChart"></canvas>
+        <div style="padding-left: 5%">
+          <canvas id="competenciesBehavioralChart"></canvas>
+        </div>
         <div id="competenciesBehavioral"></div>
       </div>
     </div>
